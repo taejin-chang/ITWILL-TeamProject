@@ -1,0 +1,2869 @@
+
+            <script type='text/javascript'>
+                alert('주문서로 이동할 수 없습니다.');location.replace('/');
+            </script>
+            <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html>
+<html lang="ko"><head><script>
+(function(i, s, o, g, r, a, m) {
+    a = s.createElement(o);
+    m = s.getElementsByTagName(o)[0];
+    a.src = g;
+    a.onload = function() {
+        i[r].init('https://js-error-tracer-api.cafe24.com', {"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJlY3VkZW1vMjAwNjQyLmNhZmUyNC5jb20iLCJhdWQiOiJqcy1lcnJvci10cmFjZXItYXBpLmNhZmUyNC5jb20iLCJtYWxsX2lkIjoiZWN1ZGVtbzIwMDY0MiIsInNob3Bfbm8iOjEsInBhdGhfcm9sZSI6Ik9SREVSX09SREVSRk9STSIsImxhbmd1YWdlX2NvZGUiOiJrb19LUiIsImNvdW50cnlfY29kZSI6IktSIiwib3JpZ2luIjoiaHR0cDpcL1wvZWN1ZGVtbzIwMDY0Mi5jYWZlMjQuY29tIiwiaXNfY29udGFpbmVyIjpmYWxzZSwiaG9zdG5hbWUiOiJ1ZG1wLTExNSJ9.PYzOs8n3PwRy7Ls7Q_zXes8EI7eGLsViE2bstdhJk84","collectWindowErrors":true,"preventDuplicateReport":true,"storageKeyPrefix":"EC_JET.ORDER_ORDERFORM"});
+    };
+    m.parentNode.insertBefore(a, m);
+}(window, document, 'script', '/ind-script/optimizer.php?filename=08_Iz03VNzQq0i8oyk8vSszVLy8v18_MS-EqTi7KLCjRz0oFY57czDyerGIA&type=js&k=f8c449ff82a3977059c3195db755507c2666c339&t=1625595405', 'EC_JET'));
+</script><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="format-detection" content="telephone=no"/><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes"/><!-- 사용자 스타일 수정이 필요한 경우, 신규 CSS 파일을 추가하여 #userStyle #mCafe24Order { } 셀렉터로 처리 가능합니다. --><!-- 스마트디자인에서는 JQuery 1.4.4 버전이 내장되어있습니다. 추가로 호출하면 충돌이 생길 수 있습니다. --><link rel="canonical" href="orderform.html" />
+<meta property="og:url" content="http://ecudemo200642.cafe24.com/order/orderform.html" />
+<meta property="og:site_name" content="쇼핑몰 이름" />
+<meta property="og:type" content="website" />
+<link rel="shortcut icon" href="../web/upload/favicon-771e4dd9e45d4f5375090b96325dc204.ico" />
+<meta http-equiv="ImageToolbar" content="No">
+<script type="text/javascript" src="http://ecudemo200642.cafe24.com/app/Eclog/js/cid.generate.js?vs=2351ab4dd6c480c070926ef53ee7a547"></script>
+<script type="text/javascript">
+window.CAFE24 = window.CAFE24 || {};
+CAFE24.MANIFEST_CACHE_REVISION = '2201261295';
+CAFE24.getDeprecatedNamespace = function(sDeprecatedNamespace, sSupersededNamespace) {
+var sNamespace = sSupersededNamespace 
+? sSupersededNamespace 
+: sDeprecatedNamespace.replace(/^EC_/, '');
+return CAFE24[sNamespace];
+}
+CAFE24.MOBILE = false;
+CAFE24.MOBILE_DEVICE = false;
+CAFE24.MOBILE_USE = false;
+var EC_MOBILE = CAFE24.MOBILE;
+var EC_MOBILE_DEVICE = CAFE24.MOBILE_DEVICE;
+var EC_MOBILE_USE = CAFE24.MOBILE_USE;
+CAFE24.SKIN_CODE = "base";
+CAFE24.FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = {"common_member_id_crypt":""};
+var EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = CAFE24.getDeprecatedNamespace('EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA');
+CAFE24.SDE_SHOP_NUM = 1;CAFE24.SHOP = {getLanguage : function() { return "ko_KR"; },getCurrency : function() { return "KRW"; },getFlagCode : function() { return "KR"; },getTimezone: function() { return "Asia/Seoul" },getDateFormat: function() { return "Y-m-d" },isMultiShop : function() { return false; },isDefaultShop : function() { return true; },isDefaultLanguageShop : function(sLanguageCode) { return SHOP.isDefaultShop() && SHOP.isLanguageShop(sLanguageCode); },isKR : function() { return true; },isUS : function() { return false; },isJP : function() { return false; },isCN : function() { return false; },isTW : function() { return false; },isES : function() { return false; },isPT : function() { return false; },isVN : function() { return false; },isPH : function() { return false; },getCountryAndLangMap : function() { return {
+"KR": "ko_KR",
+"US": "en_US",
+"JP": "ja_JP",
+"CN": "zh_CN",
+"TW": "zh_TW",
+"VN": "vi_VN",
+"PH": "en_PH"
+}},isLanguageShop : function(sLanguageCode) { return sLanguageCode === "ko_KR"; },getDefaultShopNo : function() { return 1; },getProductVer : function() { return 2; },isSDE : function() { return true; },isMode : function() {return false; },getModeName : function() {return false; },isMobileAdmin : function() {return false; },isExperienceMall : function() { return false; },getAdminID : function() {return ''},getMallID : function() {return 'ecudemo200642'},getCurrencyFormat : function(sPriceTxt, bIsNumberFormat) { 
+sPriceTxt = String(sPriceTxt);
+var aCurrencySymbol = ["","\uc6d0",false];
+if (typeof CAFE24.SHOP_PRICE !== 'undefined' && isNaN(sPriceTxt.replace(/[,]/gi, '')) === false && bIsNumberFormat === true) {
+// bIsNumberFormat 사용하려면 Ui(':libUipackCurrency')->plugin('Currency') 화폐 라이브러리 추가 필요
+sPriceTxt = CAFE24.SHOP_PRICE.toShopPrice(sPriceTxt.replace(/[,]/gi, ''), true, CAFE24.SDE_SHOP_NUM);
+}
+try {
+var sPlusMinusSign = (sPriceTxt.toString()).substr(0, 1);
+if (sPlusMinusSign === '-' || sPlusMinusSign === '+') {
+sPriceTxt = (sPriceTxt.toString()).substr(1);
+return sPlusMinusSign + aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+} else {
+return aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+}
+} catch (e) {
+return aCurrencySymbol[0] + sPriceTxt + aCurrencySymbol[1];
+}
+}};CAFE24.CURRENCY_INFO = {getOriginReferenceCurrency : function() {return 'USD'},getCurrencyList : function(sCurrencyCode) { var aCurrencyList = {"JPY":{"currency_symbol":"&yen;","decimal_place":0,"round_method_type":"F"},"VND":{"currency_symbol":"&#8363;","decimal_place":0,"round_method_type":"F"},"PHP":{"currency_symbol":"&#8369;","decimal_place":2,"round_method_type":"R"},"USD":{"currency_symbol":"$","decimal_place":2,"round_method_type":"R"},"CNY":{"currency_symbol":"&yen;","decimal_place":2,"round_method_type":"R"},"TWD":{"currency_symbol":"NT$","decimal_place":0,"round_method_type":"F"},"EUR":{"currency_symbol":"\u20ac","decimal_place":2,"round_method_type":"R"},"BRL":{"currency_symbol":"R$","decimal_place":2,"round_method_type":"R"},"AUD":{"currency_symbol":"A$","decimal_place":2,"round_method_type":"R"},"BHD":{"currency_symbol":".&#1583;.&#1576;","decimal_place":3,"round_method_type":"R"},"BDT":{"currency_symbol":"&#2547;","decimal_place":2,"round_method_type":"R"},"GBP":{"currency_symbol":"&pound;","decimal_place":2,"round_method_type":"R"},"CAD":{"currency_symbol":"C$","decimal_place":2,"round_method_type":"R"},"CZK":{"currency_symbol":"K&#269;","decimal_place":2,"round_method_type":"R"},"DKK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"HKD":{"currency_symbol":"HK$","decimal_place":2,"round_method_type":"R"},"HUF":{"currency_symbol":"Ft","decimal_place":2,"round_method_type":"R"},"INR":{"currency_symbol":"&#8377;","decimal_place":2,"round_method_type":"R"},"IDR":{"currency_symbol":"Rp","decimal_place":2,"round_method_type":"R"},"ILS":{"currency_symbol":"&#8362;","decimal_place":2,"round_method_type":"R"},"JOD":{"currency_symbol":" &#1583;&#1610;&#1606;&#1575;&#1585;","decimal_place":3,"round_method_type":"R"},"KWD":{"currency_symbol":"&#1583;&#1610;&#1606;&#1575;&#1585;","decimal_place":3,"round_method_type":"R"},"MYR":{"currency_symbol":"RM","decimal_place":2,"round_method_type":"R"},"MXN":{"currency_symbol":"Mex$","decimal_place":2,"round_method_type":"R"},"NZD":{"currency_symbol":"NZ$","decimal_place":2,"round_method_type":"R"},"NOK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"PKR":{"currency_symbol":"&#8360;","decimal_place":2,"round_method_type":"R"},"PLN":{"currency_symbol":"z\u0142","decimal_place":2,"round_method_type":"R"},"RUB":{"currency_symbol":"\u0440\u0443\u0431","decimal_place":2,"round_method_type":"R"},"SAR":{"currency_symbol":"&#65020;","decimal_place":2,"round_method_type":"R"},"SGD":{"currency_symbol":"S$","decimal_place":2,"round_method_type":"R"},"ZAR":{"currency_symbol":"R","decimal_place":2,"round_method_type":"R"},"SEK":{"currency_symbol":"kr","decimal_place":2,"round_method_type":"R"},"CHF":{"currency_symbol":"Fr","decimal_place":2,"round_method_type":"R"},"THB":{"currency_symbol":"&#3647;","decimal_place":2,"round_method_type":"R"},"TRY":{"currency_symbol":"TL","decimal_place":2,"round_method_type":"R"},"AED":{"currency_symbol":"&#1601;&#1604;&#1587;","decimal_place":2,"round_method_type":"R"}}; return aCurrencyList[sCurrencyCode] },isUseReferenceCurrency : function() {return false }};CAFE24.COMMON_UTIL = {convertSslForString : function(sString) { return sString.replace(/http:/gi, '');},convertSslForHtml : function(sHtml) { return sHtml.replace(/((?:src|href)\s*=\s*['"])http:(\/\/(?:[a-z0-9\-_\.]+)\/)/ig, '$1$2');},getProtocol : function() { return 'http'; },moveSsl : function() { if (CAFE24.COMMON_UTIL.getProtocol() === 'http') { var oLocation = jQuery(window.location); var sUrl = 'https://' + oLocation.attr('host') + oLocation.attr('pathname') + oLocation.attr('search'); window.location.replace(sUrl); } },setEcCookie : function(sKey, sValue, iExpire) {var exdate = new Date();exdate.setDate(exdate.getDate() + iExpire);var setValue = escape(sValue) + "; domain=." + CAFE24.GLOBAL_INFO.getBaseDomain() + "; path=/;expires=" + exdate.toUTCString();document.cookie = sKey + "=" + setValue;}};CAFE24.SHOP_LIB_INFO = {getBankInfo : function() { 
+var oBankInfo = "";
+$.ajax({
+type: "GET",
+url: "/exec/front/Shop/Bankinfo",
+dataType: "json",
+async: false,
+success: function(oResponse) {
+oBankInfo = oResponse;
+}
+});
+return oBankInfo; }};            var EC_SDE_SHOP_NUM = CAFE24.SDE_SHOP_NUM;
+var SHOP = CAFE24.getDeprecatedNamespace('SHOP');
+var EC_COMMON_UTIL = CAFE24.getDeprecatedNamespace('EC_COMMON_UTIL');
+var EC_SHOP_LIB_INFO = CAFE24.getDeprecatedNamespace('EC_SHOP_LIB_INFO');
+var EC_CURRENCY_INFO = CAFE24.getDeprecatedNamespace('EC_CURRENCY_INFO');
+CAFE24.ROOT_DOMAIN = "cafe24.com";
+CAFE24.API_DOMAIN = "cafe24api.com";
+CAFE24.TRANSLATE_LOG_STATUS = "F";
+CAFE24.GLOBAL_INFO = (function() {
+var oData = {"base_domain":"ecudemo200642.cafe24.com","root_domain":"cafe24.com","api_domain":"cafe24api.com","is_global":false,"is_global_standard":false,"country_code":"KR","language_code":"ko_KR","admin_language_code":"ko_KR"};
+return {
+getBaseDomain: function() {
+return oData['base_domain'];
+},
+getRootDomain: function() {
+return oData['root_domain'];
+},
+getApiDomain: function() {
+return oData['api_domain'];
+},
+isGlobal: function() {
+return oData['is_global'];
+},
+isGlobalStandard: function() {
+return oData['is_global_standard'];
+},
+getCountryCode: function() {
+return oData['country_code'];
+},
+getLanguageCode: function() {
+return oData['language_code'];
+},
+getAdminLanguageCode: function() {
+return oData['admin_language_code'];
+}
+};
+})();
+var EC_ROOT_DOMAIN = CAFE24.ROOT_DOMAIN;
+var EC_API_DOMAIN = CAFE24.API_DOMAIN;
+var EC_TRANSLATE_LOG_STATUS = CAFE24.TRANSLATE_LOG_STATUS;
+var EC_GLOBAL_INFO = CAFE24.getDeprecatedNamespace('EC_GLOBAL_INFO');
+CAFE24.AVAILABLE_LANGUAGE = ["ko_KR","zh_CN","en_US","zh_TW","es_ES","pt_PT","vi_VN","ja_JP","en_PH"];
+CAFE24.AVAILABLE_LANGUAGE_CODES = {"ko_KR":"KOR","zh_CN":"CHN","en_US":"ENG","zh_TW":"TWN","es_ES":"ESP","pt_PT":"PRT","vi_VN":"VNM","ja_JP":"JPN","en_PH":"PHL"};
+var EC_AVAILABLE_LANGUAGE = CAFE24.AVAILABLE_LANGUAGE;
+var EC_AVAILABLE_LANGUAGE_CODES = CAFE24.AVAILABLE_LANGUAGE_CODES;
+CAFE24.GLOBAL_PRODUCT_LANGUAGE_CODES = {  
+sClearanceCategoryCode: '',
+sManualLink: '//serviceguide.cafe24shop.com/ko_KR/PR.PD.GA.html',
+sHsCodePopupLink: 'https://www.wcotradetools.org/en/harmonized-system',
+aCustomRegex: '"PHL" : "^[0-9]{8}[A-Z]?$"',
+sCountryCodeData: 'kor',
+sEnglishExampleURlForGlobal: '',
+aReverseAddressCountryCode: ["VNM","PHL"],
+aSizeGuideCountryAlign: '["US","UK","EU","KR","JP","CN"]',
+aIsSupportTran: ["ja_JP","zh_CN","zh_TW","en_US","vi_VN","en_PH","pt_PT","es_ES"]
+};
+var EC_GLOBAL_PRODUCT_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_PRODUCT_LANGUAGE_CODES');
+CAFE24.GLOBAL_ORDER_LANGUAGE_CODES = {
+aModifyOrderLanguage: {"KR":"ko_KR","JP":"ja_JP","CN":"zh_CN","TW":"zh_TW","VN":"vi_VN","PH":"en_PH"},
+aUseIdCardKeyCountry: ["CN","TW"],
+aLanguageWithCountryCode: {"zh_CN":["CN","CHN","HK","HNK"],"ja_JP":["JP","JPN"],"zh_TW":["TW","TWN"],"ko_KR":["KR","KOR"],"vi_VN":["VN","VNM"],"en_PH":["PH","PHL"]},
+aCheckDisplayRequiredIcon: ["ja_JP","zh_CN","zh_TW","en_US","vi_VN","en_PH"],
+aSetReceiverName: {"zh_CN":{"sCountry":"CN","bUseLastName":true},"zh_TW":{"sCountry":"TW","bUseLastName":false},"ja_JP":{"sCountry":"JP","bUseLastName":true}},
+aSetDeferPaymethodLanguage: {"ja_JP":"\uc77c\ubcf8","zh_CN":"\uc911\uad6d"},
+aUseDeferPaymethod: ["ja_JP","zh_CN"],
+aCheckShippingCompanyAndPaymethod: ["ja_JP","zh_CN"],
+aSetDeferPaymethodLanguageForShipping: {"ja_JP":"\u65e5\u672c","zh_CN":"\uc911\uad6d"},
+aCheckStoreByPaymethod: ["ja_JP","zh_CN"],
+aCheckIsEmailRequiredForJs: ["en_US","zh_CN","zh_TW","ja_JP","vi_VN","en_PH"],
+aSetIdCardKeyCountryLanguage: {"CN":"\uc911\uad6d\uc758","TW":"\ub300\ub9cc\uc758"},
+aReverseGlobalAddress: ["en_PH","vi_VN","PHL","VNM","VN","PH"],
+aNoCheckZipCode: ["KOR","JPN"],
+aNotPostCodeAPICountryList: ["en_US","es_ES","pt_PT","en_PH"],
+aEnableSearchExchangeAddr: ["KR","JP","CN","VN","TW","PH"],
+aDuplicatedBaseAddr: ["TW","JP"],
+aReverseAddressCountryCode: ["VN","PH"],
+aCheckZipCode: ["PHL","en_PH","PH"]
+};
+var EC_GLOBAL_ORDER_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_ORDER_LANGUAGE_CODES');
+CAFE24.GLOBAL_MEMBER_LANGUAGE_CODES = {  
+sAdminWebEditorLanguageCode: 'ko' ,
+oNotAvailDecimalPointLanguages: ["ko_KR","ja_JP","zh_TW","vi_VN"],
+oAddressCountryCode: {"KOR":"ko_KR","JPN":"ja_JP","CHN":"zh_CN","TWN":"zh_TW","VNM":"vi_VN","PHL":"en_PH"},
+};
+var EC_GLOBAL_MEMBER_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_MEMBER_LANGUAGE_CODES');
+CAFE24.GLOBAL_BOARD_LANGUAGE_CODES = {  
+bUseLegacyBoard: true
+};
+var EC_GLOBAL_BOARD_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_BOARD_LANGUAGE_CODES');
+CAFE24.GLOBAL_MALL_LANGUAGE_CODES = {
+oDesign: {
+oDesignAddReplaceInfo: {"group_id":"SKIN.ADD.ADMIN.DESIGNDETAIL","replacement":{"KR":"KOREAN","US":"ENGLISH","JP":"JAPANESE","CN":"SIMPLIFIED.CHINESE","TW":"TRADITIONAL.CHINESE","ES":"SPANISH","PT":"PORTUGUESE","PH":"ENGLISH"}},
+oDesignDetailLanguageCountryMap: {"KR":"ko_KR","JP":"ja_JP","CN":"zh_CN","TW":"zh_TW","US":"en_US","ES":"es_ES","PT":"pt_PT","PH":"en_PH"},
+oSmartDesignSwitchTipLink: {"edibot":{"img":"\/\/img.echosting.cafe24.com\/smartAdmin\/img\/design\/img_editor_dnd.png","link":"\/\/ecsupport.cafe24.com\/board\/free\/list.html?board_act=list&board_no=12&category_no=9&cate_no=9"},"smart":{"img":"\/\/img.echosting.cafe24.com\/smartAdmin\/img\/design\/ko_KR\/img_editor_smart.png","link":"\/\/sdsupport.cafe24.com"}},
+oSmartDesignDecoShopList: ["ko_KR","ja_JP","zh_CN","en_US","zh_TW","es_ES","pt_PT"],
+oSmartDesignDecoMultilingual: {"list":{"ko_KR":"KOREAN","en_US":"ENGLISH","ja_JP":"JAPANESE","zh_CN":"SIMPLIFIED.CHINESE","zh_TW":"TRADITIONAL.CHINESE","es_ES":"SPANISH","pt_PT":"PORTUGUESE","vi_VN":"VIETNAMESE"},"group_id":"EDITOR.LAYER.EDITING.DECO"},
+aSmartDesignModuleShopList: ["ko_KR","ja_JP","zh_CN","en_US","zh_TW","es_ES","pt_PT"]
+},
+oStore: {
+oMultiShopCurrencyInfo: {"en_US":{"currency":"USD"},"zh_CN":{"currency":"USD","sub_currency":"CNY"},"ja_JP":{"currency":"JPY"},"zh_TW":{"currency":"TWD"},"es_ES":{"currency":"EUR"},"pt_PT":{"currency":"EUR"},"ko_KR":{"currency":"KRW"},"vi_VN":{"currency":"VND"},"en_PH":{"currency":"PHP"}},
+oBrowserRedirectLanguage: {"ko":{"primary":"ko_KR","secondary":"en_US"},"en":{"detail":{"en-ph":{"primary":"en_PH","secondary":"en_US"},"en-us":{"primary":"en_US","secondary":"es_ES"},"default":{"primary":"en_US","secondary":"es_ES"}}},"ja":{"primary":"ja_JP","secondary":"en_US"},"zh":{"detail":{"zh-cn":{"primary":"zh_CN","secondary":"en_US"},"zh-tw":{"primary":"zh_TW","secondary":"zh_CN"},"default":{"primary":"en_US","secondary":"ko_KR"}}},"es":{"primary":"es_ES","secondary":"en_US"},"pt":{"primary":"pt_PT","secondary":"en_US"},"vi":{"primary":"vi_VN","secondary":"en_US"},"default":{"primary":"en_US","secondary":"ko_KR"}},
+aChangeableLanguages: ["en_US","vi_VN","ja_JP","ko_KR","zh_TW","th_TH"],
+aNoZipCodeLanguage: ["ko_KR","ja_JP"]
+},
+oMobile: {
+sSmartWebAppFaqUrl: "https://ecsupport.cafe24.com/board/free/read.html?no=1832&board_no=5&category_no=13&cate_no=13&category_no=13&category_no=13",
+sAmpFaqUrl: "https://ecsupport.cafe24.com/board/free/read.html?no=1864&board_no=5&category_no=13&cate_no=13&category_no=13&category_no=13",
+},
+oPromotion: {
+bQrCodeAvailable: true,
+bSnsMarketingAvailable: true
+},
+oShippingReverseAddressLanguage: ["vi_VN","en_PH"] ,
+oGlobalStandardSwitchHelpCodeLink: {"SH.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/SH.DS.html"},"PR.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/PR.DS.html"},"OR.SM.BO":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/OR.SM.BO.html"},"CU.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/CU.DS.html"},"DE.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/DE.DS.html"},"MB.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/MB.DS.html"},"PM.DS":{"link":"\/\/serviceguide.cafe24shop.com\/en_PH\/PM.DS.html"}},
+getAdminMainLocaleLanguage: function(sSkinLocaleCode) {
+var oLocaleData = [];
+var locale = "";
+var shopLangName = ""; 
+if (sSkinLocaleCode == "US") {
+locale = "en_US";
+shopLangName = "ENGLISH";
+} else if (sSkinLocaleCode == "JP") {
+locale = "ja_JP";
+shopLangName = "JAPANESE";
+} else if (sSkinLocaleCode == "CN") {
+locale = "zh_CN";
+shopLangName = "SIMPLIFIED.CHINESE";
+} else if (sSkinLocaleCode == "TW") {
+locale = "zh_TW";
+shopLangName = "TRADITIONAL.CHINESE";
+} else if (sSkinLocaleCode == "ES") {
+locale = "es_ES";
+shopLangName = "SPANISH";
+} else if (sSkinLocaleCode == "PT") {
+locale = "pt_PT";
+shopLangName = "PORTUGUESE";
+} else if (sSkinLocaleCode == "VN") {
+locale = "vi_VN";
+shopLangName = "VIETNAMESE";
+} else if(sSkinLocaleCode == "PH") {
+locale = "en_PH";
+shopLangName = "ENGLISH.PH";
+}
+oLocaleData["locale"] = locale;
+oLocaleData["shopLangName"] = shopLangName;
+return oLocaleData;
+}
+};
+var EC_GLOBAL_MALL_LANGUAGE_CODES = CAFE24.getDeprecatedNamespace('EC_GLOBAL_MALL_LANGUAGE_CODES');
+CAFE24.GLOBAL_DATETIME_INFO = {
+oConstants: {"STANDARD_DATE_REGEX":"\/([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01]))\/","IN_ZONE":"inZone","OUT_ZONE":"outZone","IN_FORMAT":"inFormat","OUT_FORMAT":"outFormat","IN_DATE_FORMAT":"inDateFormat","IN_TIME_FORMAT":"inTimeFormat","OUT_DATE_FORMAT":"outDateFormat","OUT_TIME_FORMAT":"outTimeFormat","IN_FORMAT_DATE_ONLY":1,"IN_FORMAT_TIME_ONLY":2,"IN_FORMAT_ALL":3,"OUT_FORMAT_DATE_ONLY":1,"OUT_FORMAT_TIME_ONLY":2,"OUT_FORMAT_ALL":3,"DATE_ONLY":"YYYY-MM-DD","TIME_ONLY":"HH:mm:ss","FULL_TIME":"YYYY-MM-DD HH:mm:ss","ISO_8601":"YYYY-MM-DD[T]HH:mm:ssZ","YEAR_ONLY":"YYYY","MONTH_ONLY":"MM","DAY_ONLY":"DD","WEEK_ONLY":"e","TIME_H_I_ONLY":"HH:mm","TIME_HOUR_ONLY":"HH","TIME_MINUTE_ONLY":"mm","POSTGRE_FULL_TIME":"YYYY-MM-DD HH24:MI:SS","POSTGRE_TIME_ONLY":" HH24:MI:SS","MICRO_SECOND_ONLY":"u","SEOUL":"Asia\/Seoul","TOKYO":"Asia\/Tokyo","SHANGHAI":"Asia\/Shanghai","TAIPEI":"Asia\/Taipei","HANOI":"Asia\/Bangkok","LOS_ANGELES":"America\/Los_Angeles","LISBON":"Europe\/Lisbon","MADRID":"Europe\/Madrid","SINGAPORE":"Asia\/Singapore","UTC":"Etc\/UTC","MAX_DATETIME":"9999-12-31 23:59:59"},
+oOptions: {"inZone":"Asia\/Seoul","inFormat":"YYYY-MM-DD HH:mm:ss","inDateFormat":"YYYY-MM-DD","inTimeFormat":"HH:mm:ss","outZone":"Asia\/Seoul","outFormat":"YYYY-MM-DD HH:mm:ss","outDateFormat":"YYYY-MM-DD","outTimeFormat":"HH:mm:ss"},
+oPolicies: [],
+sOverrideTimezone: '',
+sMomentNamespace: 'EC_GLOBAL_MOMENT'
+};
+CAFE24.FRONT_JS_CONFIG_MANAGE = {"sSmartBannerScriptUrl":"https:\/\/app4you.cafe24.com\/SmartBanner\/tunnel\/scriptTags?vs=1563164396689206","sMallId":"ecudemo200642","sDefaultAppDomain":"https:\/\/app4you.cafe24.com","sWebLogOffFlag":"F"};
+var EC_FRONT_JS_CONFIG_MANAGE = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_MANAGE');
+CAFE24.FRONT_JS_CONFIG_MEMBER = {"sAuthUrl":"https:\/\/i-pin.cafe24.com\/certify\/1.0\/?action=auth"};
+var EC_FRONT_JS_CONFIG_MEMBER = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_MEMBER');
+CAFE24.FRONT_JS_CONFIG_SHOP = {"bDirectBuyOrderForm":false};
+var EC_FRONT_JS_CONFIG_SHOP = CAFE24.getDeprecatedNamespace('EC_FRONT_JS_CONFIG_SHOP');
+typeof window.CAFE24 === "undefined" && (window.CAFE24 = {});
+</script>
+
+<link rel="stylesheet" type="text/css" href="http://ecudemo200642.cafe24.com/ind-script/optimizer.php?filename=nc1LCoAwDIThfXHrOYLeqC3xAU2mpCno7RW8gHQ7zMdPB4RpWY2qYbcoZNzQLTPl1mgzqFOGCHR6h5n-_DmHhtL9hIaEaxB299FoiTfbGPWYCg9S1FBO5ZCi6td_AA&type=css&k=37c9481ac0212340e132f81eba4d1049fee7f18e&t=1635315871"  /><link rel="stylesheet" type="text/css" href="http://ecudemo200642.cafe24.com/ind-script/optimizer.php?filename=rY9BDgIhDEX3g1vP0XFivINx5w2Y8mWIMCUFFt7egSvo7uU1fWlpkwS6LEpZxatNpCjSlNFFBVc4EnVQApsBL9FEmekt5vEkLoW6MbKjSuPtdJgzjeyx0Qq0HNAckizzfLsulNsaA5utpkjFwTiU4HdabQFF-5FWOwcebfDUB1O2Puy24rd8LyZxLY73XONKDtWG-PdskjVE3JP14-Qv&type=css&k=f91721979e580df3ba79da3b2d877fc18d0a41b1&t=1635423560&user=T"  />
+
+<title>일픽셀디자인 ● S337 산책 ● 카페24 쇼핑몰디자인 제작 1pixel.co.kr</title>
+<meta name="path_role" content="ORDER_ORDERFORM" />
+<meta name="keywords" content="쇼핑몰 이름" /></head><body id="userStyle">    <!-- [상단영역] -->
+    <header id="header"><!-- app tag --><div id="ec-orderform-header-head"></div>
+
+    <div class="header">
+        <h1 class="xans-element- xans-layout xans-layout-logotop "><a href="../index.html">쇼핑몰 이름</a>
+</h1>
+        <div class="headerMenu gLeft">
+            <span class="xans-element- xans-layout xans-layout-mobileaction btnBack "><a href="#none" onclick="document.referrer ? history.go(-1) : location.href='/';return false;">뒤로가기</a>
+</span>
+        </div>
+        <div class="headerMenu gRight">
+            <span class="xans-element- xans-layout xans-layout-orderbasketcount btnBasket "><a href="basket.html">장바구니<span class="count displaynone EC-Layout_Basket-count-display"><span class="EC-Layout-Basket-count">0</span></span></a>
+</span>
+            <a href="http://ecudemo200642.cafe24.com/member/login.html?returnUrl=%2Forder%2Forderform.html%3Fbasket_type%3D%26delvtype%3D" class="xans-element- xans-layout xans-layout-statelogoff btnMy ">로그인
+</a>
+                    </div>
+    </div>
+    <div class="titleArea">
+        <h1>주문/결제</h1>
+    </div>
+
+    <!-- app tag -->
+    <div id="ec-orderform-header-tail"></div>
+</header><div id="mCafe24Order" class="xans-element- xans-order xans-order-form typeHeader "><!-- 이값은 지우면 안되는 값입니다. ($move_order_after 주문완료페이지 주소 / $move_basket 장바구니페이지 주소)
+            $move_order_after=/order/order_result.html
+            $move_basket=/order/basket.html
+            $paymethod_selector = textButton
+            $email_type=emailcompact
+            $product_weight_display=F
+        -->
+<!-- [바로구매 주문상품] -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<div id="ec-jigsaw-area-productdetail">
+    </div>
+<!-- [주문배송정보] 주문자정보, 배송지정보, 배송정보 -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<!-- 이값은 지우면 안되는 값입니다.
+    $delivery_list_type=embeded
+    $isRuleBasedAddrForm = T
+-->
+<div class="billingNshipping">
+    <!-- 주문자정보 -->
+    <div id="ec-jigsaw-area-billingInfo" class="ec-base-fold eToggle selected displaynone">
+        <div id="ec-jigsaw-title-billingInfo" class="title">
+            <h2>주문 정보</h2>
+            <span id="ec-jigsaw-heading-billingInfo" class="txtEm gRight"></span>
+        </div>
+        <div class="contents ">
+            <div class="ec-base-table typeWrite">
+                <table border="1">
+<caption>주문자 정보 입력</caption>
+                    <colgroup>
+<col style="width:102px">
+<col style="width:auto">
+</colgroup>
+<!-- 국내/해외 주문자 정보 --><tbody class=" displaynone">
+<tr>
+<th scope="row">주문자 <span class="icoRequired">필수</span>
+</th>
+                        <td></td>
+                    </tr>
+<tr class="ec-orderform-emailRow">
+<th scope="row">이메일 <span class="icoRequired">필수</span>
+</th>
+                        <td>
+                            <div class="ec-base-mail"></div>
+                            <p class="ec-base-help">이메일로 주문 처리 과정을 보내드립니다.<br>수신 가능한 이메일 주소를 입력해 주세요.</p>
+                        </td>
+                    </tr>
+<tr class="displaynone">
+<th scope="row">일반전화 <span class="displaynone"><span class="icoRequired">필수</span></span>
+</th>
+                        <td></td>
+                    </tr>
+<tr class="displaynone">
+<th scope="row">휴대전화 <span class="displaynone"><span class="icoRequired">필수</span></span>
+</th>
+                        <td></td>
+                    </tr>
+<tr id="ec-orderer-address">
+<th scope="row">주소 <span class="displaynone"><span class="icoRequired">필수</span></span>
+</th>
+                        <td>
+                                                    </td>
+                    </tr>
+</tbody>
+</table>
+</div>
+        </div>
+    </div>
+
+    <!-- 배송정보  -->
+    <div id="" class="ec-area-shipping-companies ec-base-fold eToggle selected displaynone">
+        <div class="title">
+            <h2>상품 수령</h2>
+        </div>
+        <div class="contents">
+            <div class="segment">
+                <!-- 배송업체(방식) 선택 -->
+                                <p class="ec-base-help displaynone">스토어픽업을 사용할 수 없는 상품이 포함되어 있어 일반 배송사만 선택 가능합니다.</p>
+                                   <ul class="ec-base-help displaynone" >
+<li class="txtEm displaynone">배송비 : </li>
+                    <li class="displaynone">
+                        <div class=" displaynone">
+                            <span class="txtEm">배송비 : <span id=""></span></span>
+                            = 해외배송비 <span id=""></span>                            + 보험료 <span id=""></span>                            <span class="">+ <span id=""></span> <span id=""></span></span>
+                            <p class="ec-base-help typeDash gIndent10">보험료는 배송과정에서 발생하는 분실, 도난, 파손 등으로 인한 손해에 대하여 규정에 따라 배상해 드리는 서비스입니다.</p>
+                        </div>
+                        <div class=" displaynone">
+                            <span class="txtEm">배송비 : <span id=""></span></span>
+                            = 해외배송비 <span id=""></span>                            + 보험료 <span id=""></span>                            <ul class="ec-base-help typeDash gIndent10">
+<li>배송비에는 관세 및 세금 등의 각종 비용은 포함되어 있지 않습니다. 상품수령 시 고객님이 추가로 지불하셔야 합니다.</li>
+                                <li>보험료는 배송과정에서 발생하는 분실, 도난, 파손 등으로 인한 손해에 대하여 규정에 따라 배상해 드리는 서비스입니다.</li>
+                            </ul>
+</div>
+                    </li>
+                    <li class="">배송안내 : </li>
+                    <li>배송소요기간 : </li>
+                    <li class="displaynone" >주문가능 시간 : </li>
+                    <li class="displaynone" >
+<div >배송가능 지역 : </div>
+<div class="ec-base-button" ><button type="button" id="" class="btnNormal mini">배송가능지역</button></div>
+</li>
+                    <li></li>
+                </ul>
+<ul class="ec-base-help displaynone" >
+<li class="txtEm"></li>
+                    <li></li>
+                    <li>영업시간 : </li>
+                    <li> </li>
+                    <li><div class="ec-base-button"><button type="button" id="" class="btnNormal mini">수령지 안내</button></div></li>
+                </ul>
+<ul class="ec-base-help" id="">
+<li class="txtEm" id="">배송비 : </li>
+                    <li id="">배송안내 : </li>
+                </ul>
+</div>
+        </div>
+    </div>
+
+    <!-- 수령자 정보   -->
+    <div id="ec-jigsaw-area-shippingInfo" class="ec-base-fold eToggle selected">
+        <div id="ec-jigsaw-title-shippingInfo" class="title">
+            <h2>배송지</h2>
+        </div>
+        <div class="contents">
+            <!-- app tag -->
+            <div id="ec-orderform-billingNshipping-head"></div>
+            <!-- 국내배송 정보 -->
+            <div class="displaynone">
+                <div id="ec-jigsaw-tab-shippingInfo" class="ec-base-tab displaynone">
+                    <ul>
+<li id="ec-jigsaw-tab-shippingInfo-recentAddress" class="selected"><a href="#none">최근 배송지</a></li>
+                        <li id="ec-jigsaw-tab-shippingInfo-newAddress"><a href="#none">직접입력</a></li>
+                    </ul>
+</div>
+                <!-- 최근배송지 -->
+                <div id="ec-shippingInfo-recentAddress" class="tabCont recentShipArea ">
+                    <div id="ec-shippingInfo-recentAddressText" class="segment">
+                        <div class=" recent">
+                            <strong class="name"><span class="txtEm" id=""></span><span id=""></span></strong>
+                            <p class="address gBlank10">[<span id=""></span>] <span id=""></span></p>
+                            <dl class="contact">
+<dt class="displaynone">휴대전화</dt>
+                                <dd class="displaynone" id=""></dd>
+                                <dt class="displaynone">일반전화</dt>
+                                <dd class="displaynone" id=""></dd>
+                            </dl>
+</div>
+                        <span class="sideRight"><button type="button" id="ec-shippingInfo-showRecentAddressList" class="btnNormal mini">배송지 목록</button></span>
+                    </div>
+
+                    <div id="ec-shippingInfo-recentAddressList" class="segment" style="display:none;">
+                        <h3 class="heading">배송지를 선택해 주세요.</h3>
+                        <ul class="shippingList"><li class="xans-element- xans-order xans-order-deliverylist "><strong class="name"><span id="ec-shippingInfo-recentAddressList-mainLabel-" class="txtEm"></span> </strong>
+<div class="description">
+                                    <span class="choice"><input type="radio" id="ec-shippingInfo-recentAddressList-choice-select-" name="ec-shippingInfo-recentAddressList-choice" value="" class="fRadio" ></span>
+                                    <p class="address gBlank10">[<span class="ec-shippingInfo-recentAddressList-zipcode-"></span>] <span class="ec-shippingInfo-recentAddressList-addr1-"></span><br><span class="ec-shippingInfo-recentAddressList-addr2-"></span>
+                                    </p>
+                                    <dl class="contact">
+<dt>휴대전화</dt>
+                                        <dd></dd>
+                                        <dt>일반전화</dt>
+                                        <dd></dd>
+                                    </dl>
+</div>
+<span class="button">
+                                        <button type="button" id="ec-shippingInfo-recentAddressList-choice-modify-" class="btnText">수정</button>
+                                    </span>
+</li>
+                        </ul>
+<span class="sideRight"><button type="button" id="ec-shippingInfo-closeRecentAddressList" class="btnBase mini">닫기</button></span>
+                    </div>
+                </div>
+
+                <!-- 새 배송지 -->
+                <div id="ec-shippingInfo-newAddress" class="tabCont newShipArea displaynone">
+                    <div class="segment ec-shippingInfo-sameaddr displaynone">
+                                            </div>
+                    <div class="ec-base-table typeWrite">
+                        <table border="1">
+<caption>배송 정보 입력</caption>
+                            <colgroup>
+<col style="width:102px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr class="ec-shippingInfo-newAddress-name">
+<th scope="row">받는사람 <span class="icoRequired">필수</span>
+</th>
+                                <td></td>
+                            </tr>
+<tr id="ec-receiver-address">
+<th scope="row">주소 <span class="displaynone"><span class="icoRequired">필수</span></span>
+</th>
+                                <td>
+                                                                    </td>
+                            </tr>
+<tr class="ec-shippingInfo-receiverPhone displaynone">
+<th scope="row">일반전화 <span class="displaynone"><span class="icoRequired">필수</span></span>
+</th>
+                                <td></td>
+                            </tr>
+<tr class="ec-shippingInfo-receiverCell displaynone">
+<th scope="row">휴대전화 <span class="displaynone"><span class="icoRequired">필수</span></span>
+</th>
+                                <td></td>
+                            </tr>
+<tr class="ec-orderform-emailRow ">
+<th scope="row">이메일 <span class="icoRequired">필수</span>
+</th>
+                                <td>
+                                    <div class="ec-base-mail"></div>
+                                    <p class="ec-base-help">이메일로 주문 처리 과정을 보내드립니다.<br>수신 가능한 이메일 주소를 입력해 주세요.</p>
+                                </td>
+                            </tr>
+</tbody>
+</table>
+</div>
+                </div>
+                <!-- 안심번호 서비스 사용 -->
+                <div class="ec-shippingInfo-safePhone segment unique displaynone">
+                    <div class="safePhone">
+                        <span class="useCheck"></span>
+                        <a href="ec_orderform/popup/safePhone.html" target="_blank" class="txtLink">안내</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 해외배송 정보 -->
+            <div id="ec-shippingInfo-overseaAddress" class="displaynone">
+                <div class="ec-base-table typeWrite">
+                    <table border="1">
+<caption>배송 정보 입력</caption>
+                        <colgroup>
+<col style="width:102px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr class="ec-shippingInfo-newAddress-name">
+<th scope="row">받는사람 <span class="icoRequired">필수</span>
+</th>
+                            <td>
+                                                                <p class="ec-base-help">영문으로 작성해 주세요.</p>
+                            </td>
+                        </tr>
+<tr id="ec-freceiver-address">
+<th scope="row">주소 <span class="displaynone"><span class="icoRequired">필수</span></span>
+</th>
+                            <td>
+                                                            </td>
+                        </tr>
+<tr class="ec-shippingInfo-receiverPhone displaynone">
+<th scope="row">일반전화 <span class="icoRequired">필수</span>
+</th>
+                            <td></td>
+                        </tr>
+<tr class="ec-shippingInfo-receiverCell displaynone">
+<th scope="row">휴대전화 <span class="icoRequired">필수</span>
+</th>
+                            <td></td>
+                        </tr>
+<tr class="ec-orderform-emailRow  ">
+<th scope="row">이메일 <span class="icoRequired">필수</span>
+</th>
+                            <td>
+                                <div class="ec-base-mail"></div>
+                                <p class="ec-base-help">이메일로 주문 처리 과정을 보내드립니다.<br>수신 가능한 이메일 주소를 입력해 주세요.</p>
+                            </td>
+                        </tr>
+<tr id="" class="displaynone">
+<th scope="row">통관정보 <span class="icoRequired">필수</span>
+</th>
+                            <td>
+                                                                <span class="gBlank10"></span>
+                                <p id="" class="ec-base-help"></p>
+                            </td>
+                        </tr>
+<tr class="ec-shop-overseaShippingFee shippingPrice displaynone">
+<th scope="row">배송비</th>
+                            <td>
+                                <div class=" displaynone">
+                                    <p class="gBlank5 gBreak5"><span class="txtEm"><span id=""></span></span></p>
+                                    <div class="ec-base-table gCellNarrow">
+                                        <table border="1">
+<caption>배송비 상세</caption>
+                                            <colgroup>
+<col style="width:113px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">해외배송비</th>
+                                                <td class="right"><span id=""></span></td>
+                                            </tr>
+<tr class="displaynone">
+<th scope="row">보험료</th>
+                                                <td class="right">+<span id=""></span></td>
+                                            </tr>
+<tr class="">
+<th scope="row"><span id=""></span></th>
+                                                <td class="right">+<span id=""></span></td>
+                                            </tr>
+</tbody>
+</table>
+</div>
+                                    <p class="ec-base-help typeDash displaynone">보험료는 배송과정에서 발생하는 분실, 도난, 파손 등으로 인한 손해에 대하여 규정에 따라 배상해 드리는 서비스입니다.</p>
+                                </div>
+                                <div class=" displaynone">
+                                    <p class="gBlank5 gBreak5"><span class="txtEm"><span id=""></span></span></p>
+                                    <div class="ec-base-table gCellNarrow">
+                                        <table border="1">
+<caption>배송비 상세</caption>
+                                            <colgroup>
+<col style="width:113px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">해외배송비</th>
+                                                <td class="right"><span id=""></span></td>
+                                            </tr>
+<tr class="displaynone">
+<th scope="row">보험료</th>
+                                                <td class="right">+<span id=""></span></td>
+                                            </tr>
+</tbody>
+</table>
+</div>
+                                    <ul class="ec-base-help typeDash">
+<li>배송비에는 관세 및 세금 등의 각종 비용은 포함되어 있지 않습니다. 상품수령 시 고객님이 추가로 지불하셔야 합니다.</li>
+                                        <li class="displaynone">보험료는 배송과정에서 발생하는 분실, 도난, 파손 등으로 인한 손해에 대하여 규정에 따라 배상해 드리는 서비스입니다.</li>
+                                    </ul>
+</div>
+                            </td>
+                        </tr>
+</tbody>
+</table>
+</div>
+            </div>
+
+            <!-- app 배송지정보 -->
+            <div id="ec-appshippingInfo">
+            </div>
+
+            <!-- 국내배송 메시지 -->
+            <div class="ec-shippingInfo-shippingMessage segment unique displaynone displaynone">
+                                <div class="ec-shippingInfo-omessageInput gBlank10" style="display:none;">
+                                        <div class="gBlank10 displaynone">
+                        <label>[]에 자동 저장</label>
+                        <ul class="ec-base-help">
+<li>게시글은 비밀글로 저장되며 비밀번호는 주문번호 뒷자리로 자동 지정됩니다.</li>
+                        </ul>
+</div>
+                </div>
+            </div>
+
+            <!-- 해외배송 메시지 -->
+            <div class="ec-shippingInfo-shippingMessage segment unique displaynone displaynone">
+                                <div class="ec-shippingInfo-omessageInput gBlank10" style="display:none;">
+                                        <div class="gBlank10 displaynone">
+                        <label>[]에 자동 저장</label>
+                        <ul class="ec-base-help">
+<li>게시글은 비밀글로 저장되며 비밀번호는 주문번호 뒷자리로 자동 지정됩니다.</li>
+                        </ul>
+</div>
+                </div>
+            </div>
+
+            <!-- 국내배송 기본 배송지 사용 -->
+            <div class="ec-shippingInfo-newAddress-setMain segment displaynone">
+                            </div>
+
+            <!-- app tag -->
+            <div id="ec-orderform-billingNshipping-tail"></div>
+
+            <!-- [비회원주문] 간편 회원가입, 비회원 비밀번호 입력 -->
+            <ec-jigsaw id="guest"><ec-jigsawpiece id="simpleJoinByOrderForm"><!--
+                이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+                이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+                원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+        --><!-- 주문서 간편 회원가입 --><div id="eSimpleJoinByOrderForm" class="xans-element- xans-member xans-member-simplejoin joinArea "><div class="agreeJoin">
+                <input type="checkbox" id="simple_join_is_check"><label for="simple_join_is_check">배송지 정보로 간편 회원가입</label>
+            </div>
+<div id="simpleJoinGuide" class="guide">
+                <ul class="ec-base-help">
+<li>아이디, 비밀번호 입력만으로 간편하게 회원가입이 가능합니다.</li>
+                    <li>회원가입 후 쿠폰, 이벤트 등 할인혜택을 받으실 수 있습니다.</li>
+                </ul>
+</div>
+<div id="simpleJoinDataForm" class="ec-base-table typeWrite">
+                <table border="1">
+<caption>간편 회원가입 정보 입력</caption>
+                    <colgroup>
+<col style="width:102px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr class="emailCheck displaynone">
+<th scope="row">이메일 <span class="icoRequired">필수</span>
+</th>
+                        <td>
+                                                         <ul class="ec-base-help">
+<li>로그인ID로 사용할 이메일을 입력해 주세요.</li>
+                                <li id="">
+                            </li>
+</ul>
+</td>
+                    </tr>
+<tr class="idCheck ">
+<th scope="row">아이디 <span class="icoRequired">필수</span>
+</th>
+                        <td>
+                            <input id="etc_subparam_member_id" name="etc_subparam_member_id" fw-filter="isFill&isFill&isMin[4]&isMax[16]&isIdentity" fw-label="아이디" fw-msg="" class="inputTypeText" placeholder="" value="" type="text"  /> <input id="idDuplCheck" name="idDuplCheck" fw-filter="" fw-label="id 중복 체크" fw-msg="" value="" type="hidden"  />                            <p id="idMsg" class="ec-base-help"></p>
+                        </td>
+                    </tr>
+<tr>
+<th scope="row">비밀번호 <span class="icoRequired">필수</span>
+</th>
+                        <td>
+                            <input id="etc_subparam_passwd" name="etc_subparam_passwd" fw-filter="isFill&isMin[4]&isMax[16]" fw-label="비밀번호" fw-msg="" autocomplete="off" maxlength="16" 0="disabled" value="" type="password"  /> <input id="etc_subparam_passwd_type" name="etc_subparam_passwd_type" fw-filter="" fw-label="etc_subparam_passwd_type" fw-msg="" value="C" type="hidden"  />                            <p class="ec-base-help">(영문 대소문자/숫자/특수문자 중 2가지 이상 조합, 10자~16자)</p>
+                        </td>
+                    </tr>
+<tr>
+<th scope="row">비밀번호 <br>확인 <span class="icoRequired">필수</span>
+</th>
+                        <td>
+                            <input id="etc_subparam_user_passwd_confirm" name="etc_subparam_user_passwd_confirm" fw-filter="isFill&isMatch[etc_subparam_passwd]" fw-label="비밀번호 확인" fw-msg="비밀번호가 일치하지 않습니다." autocomplete="off" maxlength="16" 0="disabled" value="" type="password"  />                            <p id="pwConfirmMsg" class="ec-base-help txtWarn"></p>
+                        </td>
+                    </tr>
+<tr>
+<td colspan="2">
+                            <div class="agreeLabel">
+                                <input type="checkbox" id="eSimpleJoinAgreeAll"><label for="eSimpleJoinAgreeAll"><strong>모든 정보에 동의하기</strong></label>
+                            </div>
+                            <div class="agreeLabel">
+                                <input type="checkbox" id="simple_join_agree_use_info"><label for="simple_join_agree_use_info">위 정보와 배송정보(이름, 주소, 이메일, 전화번호)를 회원정보 사용에 동의(필수)</label>
+                            </div>
+                            <div class="agreeLabel">
+                                <input type="checkbox" id="etc_subparam_is_sms"><label for="etc_subparam_is_sms">SMS로 쇼핑정보 수신 동의(선택)</label>
+                            </div>
+                            <div class="agreeLabel">
+                                <input type="checkbox" id="etc_subparam_is_news_mail"><label for="etc_subparam_is_news_mail">이메일로 쇼핑정보 수신 동의(선택)</label>
+                            </div>
+                        </td>
+                    </tr>
+</tbody>
+</table>
+</div>
+</div>
+    </ec-jigsawpiece><ec-jigsawpiece print="always"><!-- app tag --><div id="ec-orderform-guest-head"></div>
+
+        <!-- 비회원 주문조회 -->
+        <div class="pannelArea ec-orderform-NoMemberPasswdRow displaynone">
+            <div class="title">
+                <h2>비회원 주문조회 비밀번호</h2>
+            </div>
+            <div class="contents">
+                <div class="ec-base-table typeWrite">
+                    <table border="1">
+<caption>비회원 주문조회</caption>
+                        <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">비밀번호</th>
+                            <td>
+                                                                <span id="order_password_alert" class="ec-base-help txtWarn gBlank5"></span>
+                                <span id="order_password_msg" class="ec-base-help gBlank5"> (영문대소문자/숫자/특수문자 중 2가지 이상 조합, 6자~16자)</span>
+                            </td>
+                        </tr>
+<tr>
+<th scope="row">비밀번호 확인</th>
+                            <td>
+                                                                <span id="" class="ec-base-help txtWarn gBlank5"></span>
+                            </td>
+                        </tr>
+</tbody>
+</table>
+</div>
+            </div>
+        </div>
+
+        <!-- app tag -->
+        <div id="ec-orderform-guest-tail"></div>
+    </ec-jigsawpiece></ec-jigsaw>
+</div>
+    </div>
+
+    <!-- 정기배송 -->
+    <div id="ec-jigsaw-area-subscriptionStartDate" class="ec-base-fold eToggle displaynone">
+        <div id="ec-jigsaw-title-subscriptionStartDate" class="title">
+            <h2>정기배송시작일</h2>
+            <span id="ec-jigsaw-heading-subscriptionStartDate" class="txtStrong gRight">
+                    <span id="ec-subscriptionStartDate-date">
+                        <span id="ec-subscriptionStartDate"></span> <span id=""></span>요일
+                    </span>
+                </span>
+        </div>
+        <div class="contents">
+            <div class="deliveryDate">
+                <strong class="heading">배송시작일 <span class="txtEm">*</span></strong>
+                                <p class="ec-base-help txtEm">(결제일 : 주기별 배송시작일의 1일 전)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 희망배송일   -->
+    <div id="ec-jigsaw-area-hopeShippingDate" class="ec-base-fold eToggle displaynone">
+        <div id="ec-jigsaw-title-hopeShippingDate" class="title">
+            <h2>희망배송일</h2>
+            <span id="ec-jigsaw-heading-hopeShippingDate" class="txtStrong gRight">
+                    <span id="ec-hopeShippingDate-date">
+                        <span id="ec-hopeShippingDate-Y"></span>.<span id="ec-hopeShippingDate-M"></span>.<span id="ec-hopeShippingDate-D"></span> <span id=""></span>요일
+                    </span>
+                    <span id="ec-hopeShippingDate-fast"></span>
+                </span>
+        </div>
+        <div class="contents">
+            <!-- 국내배송 희망배송일 -->
+            <div class="segment displaynone">
+                                <span class="gBlank10">년 월 일</span>
+                <p class="ec-base-help"><span class="txtEm"> 이후로 선택 가능합니다.</span></p>
+            </div>
+            <!-- 해외배송 희망배송일 -->
+            <div class="segment displaynone">
+                                <span class="gBlank10">년 월 일 </span>
+                <p class="ec-base-help"><span class="txtEm"> 이후로 선택 가능합니다.</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 희망배송시간  -->
+    <div id="ec-jigsaw-area-hopeShippingTime" class="ec-base-fold eToggle displaynone">
+        <div id="ec-jigsaw-title-hopeShippingTime" class="title">
+            <h2>희망배송시간</h2>
+            <span id="ec-jigsaw-heading-hopeShippingTime" class="txtStrong gRight"></span>
+        </div>
+        <div class="contents">
+            <!-- 국내배송 희망배송시간 -->
+            <div class="segment displaynone">
+                                <span class="gBlank10"></span>
+            </div>
+            <!-- 해외배송 희망배송시간 -->
+            <div class="segment displaynone">
+                                <span class="gBlank10"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- [추가정보입력] 추가입력, 기타문의사항 -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<div id="ec-jigsaw-area-additionalInput" class="ec-base-fold eToggle selected displaynone">
+    <div id="ec-jigsaw-title-additionalInput" class="title">
+        <h2>추가입력</h2>
+    </div>
+    <div class="contents">
+        <!-- app tag -->
+        <div id="ec-orderform-additionalInput-head"></div>
+        <!-- 추가입력 -->
+        <div class="addArea displaynone">
+            <div class="ec-base-table typeWrite">
+                <table border="1">
+<caption>추가입력</caption>
+                    <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup><tbody class="xans-element- xans-order xans-order-ordadd"><tr class="">
+<th scope="row"> <span class=""></span>
+</th>
+                        <td></td>
+                    </tr>
+</tbody>
+</table>
+</div>
+        </div>
+        <!-- 기타 문의사항 -->
+        <div class="questionArea displaynone">
+            <div class="ec-base-table typeWrite">
+                <table border="1">
+<caption>기타 문의사항</caption>
+                    <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">기타 문의사항</th>
+                        <td>
+                                                        <p class="ec-base-help"><a href="/board/product/list.html?board_no=" target="_blank"></a>에 자동 저장됩니다.</p>
+                        </td>
+                    </tr>
+<tr>
+<th scope="row">비밀번호</th>
+                        <td> <p class="ec-base-help displaynone">영문 대소문자/숫자/특수문자 중 2가지 이상 조합, 10자~16자</p>
+</td>
+                    </tr>
+</tbody>
+</table>
+</div>
+        </div>
+        <!-- app tag -->
+        <div id="ec-orderform-additionalInput-tail"></div>
+    </div>
+</div>
+<!-- [주문상품] -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<div id="ec-jigsaw-area-orderProduct" class="ec-base-fold eToggle">
+    <div id="ec-jigsaw-title-orderProduct" class="title">
+        <h2>주문상품</h2>
+        <span id="ec-jigsaw-heading-orderProduct" class="txtStrong gRight">개</span>
+    </div>
+    <div class="contents">
+        <!-- app tag -->
+        <div id="ec-orderform-orderProduct-head"></div>
+
+        <!-- 국내배송상품 주문내역 -->
+        <div class="orderArea displaynone">
+            <!-- 기본배송 -->
+            <div class="xans-element- xans-order xans-order-normallist"><!-- 참고: 상품반복 -->
+<div class="ec-base-prdInfo ">
+                    <div class="prdBox">
+                        <div class="displaynone"></div>
+                        <div class="thumbnail"><a href="../product/detail.html"><img src="../order" alt="" width="90" height="90"></a></div>
+                        <div class="description">
+                            <strong class="prdName" title="상품명"> </strong>
+                            <ul class="info">
+<li class="displaynone">무이자할부 상품</li>
+                                <li title="유효기간" class="displaynone"> 내 사용</li>
+                                <li title="옵션">
+                                    <p class="option displaynone"></p>
+                                    <ul class="xans-element- xans-order xans-order-optionset option"><li class=""> -  (개)</li>
+</ul>
+</li>
+                                <li>수량: 개</li>
+                                <li>
+                                    <span id="">상품구매금액:  </span>
+                                    <span class="displaynone">()</span>
+                                </li>
+                                <li id="" class="displaynone">
+                                    할인금액: <span class="txtWarn">-<span id=""></span> </span>
+                                    <span class="txtWarn displaynone">()</span>
+                                </li>
+                                <li title="배송"> / 기본배송 </li>
+                                <li class="displaynone" title="배송주기">배송주기 : <span class="txtEm"></span>
+</li>
+                                <li id="" class="mileage displaynone" title="적립금"></li>
+                                <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                            </ul>
+</div>
+                        <button type="button" class="btnRemove displaynone" >삭제</button>
+                    </div>
+                </div>
+<!-- //참고 -->
+</div>
+            <div class="totalPrice ec-base-fold eToggle displaynone">
+                <div class="title">
+                    <h3>[기본배송]</h3>
+                </div>
+                <div class="contents">
+                    <div class="ec-base-table gCellNarrow">
+                        <table border="1">
+<caption>금액정보</caption>
+                            <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품구매금액</th>
+                                <td class="right"><span class="txtStrong">+<span class="displaynone"> ()</span></span></td>
+                            </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                <td class="right"><span class="txtStrong">+</span></td>
+                            </tr>
+<tr id="" class="displaynone">
+<th scope="row">할인금액</th>
+                                <td class="right"><span class="txtStrong">-<span id=""></span></span></td>
+                            </tr>
+<tr>
+<th scope="row">배송비</th>
+                                <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                            </tr>
+<tr class="displaynone">
+<th scope="row">합계</th>
+                                <td class="right"><span class="txtStrong"><span id=""></span> <span class="refer displaynone">()</span></span></td>
+                            </tr>
+</tbody>
+</table>
+</div>
+                </div>
+            </div>
+
+            <!-- 업체기본배송 -->
+            <div class="xans-element- xans-order xans-order-supplierlist"><!-- 참고: 상품반복 -->
+<div class="ec-base-prdInfo ">
+                    <div class="prdBox">
+                        <div class="displaynone"></div>
+                        <div class="thumbnail"><a href="../product/detail.html"><img src="../order" alt="" width="90" height="90"></a></div>
+                        <div class="description">
+                            <strong class="prdName" title="상품명"> </strong>
+                            <ul class="info">
+<li class="displaynone">무이자할부 상품</li>
+                                <li title="유효기간" class="displaynone"> 내 사용</li>
+                                <li title="옵션">
+                                    <p class="option displaynone"></p>
+                                    <ul class="xans-element- xans-order xans-order-optionset option"><li class=""> -  (개)</li>
+</ul>
+</li>
+                                <li>수량: 개</li>
+                                <li>
+                                    <span id="">상품구매금액:  </span>
+                                    <span class="displaynone">()</span>
+                                </li>
+                                <li id="" class="displaynone">
+                                    할인금액: <span class="txtWarn">-<span id=""></span> </span>
+                                    <span class="txtWarn displaynone">()</span>
+                                </li>
+                                <li title="배송"> / 업체기본배송 </li>
+                                <li class="displaynone" title="배송주기">배송주기 : <span class="txtEm"></span>
+</li>
+                                <li id="" class="mileage displaynone" title="적립금"></li>
+                                <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                            </ul>
+</div>
+                        <button type="button" class="btnRemove displaynone" >삭제</button>
+                    </div>
+                </div>
+<!-- //참고 -->
+</div>
+            <div class="totalPrice ec-base-fold eToggle displaynone">
+                <div class="title">
+                    <h3>[업체기본배송]</h3>
+                </div>
+                <div class="contents">
+                    <div class="ec-base-table gCellNarrow">
+                        <table border="1">
+<caption>금액정보</caption>
+                            <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품구매금액</th>
+                                <td class="right"><span class="txtStrong">+<span class="displaynone"> ()</span></span></td>
+                            </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                <td class="right"><span class="txtStrong">+</span></td>
+                            </tr>
+<tr id="" class="displaynone">
+<th scope="row">할인금액</th>
+                                <td class="right"><span class="txtStrong">-<span id=""></span></span></td>
+                            </tr>
+<tr>
+<th scope="row">배송비</th>
+                                <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                            </tr>
+<tr class="displaynone">
+<th scope="row">합계</th>
+                                <td class="right"><span class="txtStrong">+<span id=""></span> <span class="refer displaynone">()</span></span></td>
+                            </tr>
+</tbody>
+</table>
+</div>
+                </div>
+            </div>
+
+            <!-- 개별배송 -->
+            <div class="xans-element- xans-order xans-order-individuallist"><!-- 참고: 상품반복 -->
+<div class="ec-base-prdInfo ">
+                    <div class="prdBox">
+                        <div class="displaynone"></div>
+                        <div class="thumbnail"><a href="../product/detail.html"><img src="../order" alt="" width="90" height="90"></a></div>
+                        <div class="description">
+                            <strong class="prdName" title="상품명"> </strong>
+                            <ul class="info">
+<li class="displaynone">무이자할부 상품</li>
+                                <li title="유효기간" class="displaynone"> 내 사용</li>
+                                <li title="옵션">
+                                    <p class="option displaynone"></p>
+                                    <ul class="xans-element- xans-order xans-order-optionset option"><li class=""> -  (개)</li>
+</ul>
+</li>
+                                <li>수량: 개</li>
+                                <li>
+                                    <span id="">상품구매금액:  </span>
+                                    <span class="displaynone">()</span>
+                                </li>
+                                <li id="" class="displaynone">
+                                    할인금액: <span class="txtWarn">-<span id=""></span> </span>
+                                    <span class="txtWarn displaynone">()</span>
+                                </li>
+                                <li title="배송"> / 개별배송 </li>
+                                <li class="displaynone" title="배송주기">배송주기 : <span class="txtEm"></span>
+</li>
+                                <li id="" class="mileage displaynone" title="적립금"></li>
+                                <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                            </ul>
+</div>
+                        <button type="button" class="btnRemove displaynone" >삭제</button>
+                    </div>
+                </div>
+<!-- //참고 -->
+</div>
+            <div class="totalPrice ec-base-fold eToggle displaynone">
+                <div class="title">
+                    <h3>[개별배송]</h3>
+                </div>
+                <div class="contents">
+                    <div class="ec-base-table gCellNarrow">
+                        <table border="1">
+<caption>금액정보</caption>
+                            <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품구매금액</th>
+                                <td class="right"><span class="txtStrong">+<span class="displaynone"> ()</span></span></td>
+                            </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                <td class="right"><span class="txtStrong">+</span></td>
+                            </tr>
+<tr id="" class="displaynone">
+<th scope="row">할인금액</th>
+                                <td class="right"><span class="txtStrong">-<span id=""></span></span></td>
+                            </tr>
+<tr>
+<th scope="row">배송비</th>
+                                <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                            </tr>
+<tr class="displaynone">
+<th scope="row">합계</th>
+                                <td class="right"><span class="txtStrong"><span id=""></span> <span class="refer displaynone">()</span></span></td>
+                            </tr>
+</tbody>
+</table>
+</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 해외배송상품 주문내역 -->
+        <div class="orderArea displaynone">
+            <div class="xans-element- xans-order xans-order-oversealist"><!-- 참고: 상품반복 -->
+<div class="ec-base-prdInfo ">
+                    <div class="prdBox">
+                        <div class="displaynone"></div>
+                        <div class="thumbnail"><a href="../product/detail.html"><img src="../order" alt="" width="90" height="90"></a></div>
+                        <div class="description">
+                            <strong class="prdName" title="상품명"> </strong>
+                            <ul class="info">
+<li class="displaynone">무이자할부 상품</li>
+                                <li title="유효기간" class="displaynone"> 내 사용</li>
+                                <li title="옵션">
+                                    <p class="option displaynone"></p>
+                                    <ul class="xans-element- xans-order xans-order-optionset option"><li class=""> -  (개)</li>
+</ul>
+</li>
+                                <li>수량: 개</li>
+                                <li>
+                                    <span id="">상품구매금액:  </span>
+                                    <span class="displaynone">()</span>
+                                </li>
+                                <li id="" class="displaynone">
+                                    할인금액: <span class="txtWarn">-<span id=""></span> </span>
+                                    <span class="txtWarn displaynone">()</span>
+                                </li>
+                                <li title="배송"> / 해외배송</li>
+                                <li class="displaynone" title="배송주기">배송주기 : <span class="txtEm"></span>
+</li>
+                                <li id="" class="mileage displaynone" title="적립금"></li>
+                                <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                            </ul>
+</div>
+                        <button type="button" class="btnRemove displaynone" >삭제</button>
+                    </div>
+                </div>
+<!-- //참고 -->
+</div>
+            <div class="totalPrice ec-base-fold eToggle displaynone">
+                <div class="title">
+                    <h3>[해외배송]</h3>
+                </div>
+                <div class="contents">
+                    <div class="ec-base-table gCellNarrow">
+                        <table border="1">
+<caption>금액정보</caption>
+                            <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품구매금액</th>
+                                <td class="right"><span class="txtStrong">+<span class="displaynone"> ()</span></span></td>
+                            </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                            </tr>
+<tr id="" class="displaynone">
+<th scope="row">할인금액</th>
+                                <td class="right"><span class="txtStrong">-<span id=""></span></span></td>
+                            </tr>
+<tr>
+<th scope="row">배송비</th>
+                                <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                            </tr>
+<tr class="displaynone">
+<th scope="row">합계</th>
+                                <td class="right"><span class="txtStrong"> <span class="refer displaynone">()</span></span></td>
+                            </tr>
+</tbody>
+</table>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="totalWeight displaynone">전체 상품중량 : <span>kg</span>
+</div>
+
+        <!-- app tag -->
+        <div id="ec-orderform-orderProduct-tail"></div>
+    </div>
+    <div id="" class="displaynone"></div>
+</div>
+<!-- [사은품] -->
+<div id="">
+            <!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<!-- 이값은 지우면 안되는 값입니다.
+    $easyform_gift=T
+-->
+        </div>
+<!-- [할인/부가결제] 할인/부가결제, 자동 할인내역 레이어 팝업 -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<div class="ec-jigsawWrapper">
+    <!-- app tag -->
+    <div id="ec-orderform-discount-head"></div>
+
+    <div id="ec-jigsaw-area-discount" class="ec-base-fold eToggle selected displaynone">
+        <div id="ec-jigsaw-title-discount" class="title">
+            <h2>할인/부가결제</h2>
+            <span id="ec-jigsaw-heading-discount" class="txtStrong gRight">
+                    -<span id=""></span>                    <span class="displaynone"><span id=""></span></span>
+                </span>
+        </div>
+        <div class="contents">
+            <div class="discountDetail displaynone" id="">
+                <strong class="heading">자동 할인</strong>
+                <span class="summary"><span id="" class="displaynone">(모바일 혜택 <span id="" class="txtEm"></span>)</span><span id="mTotalOnlyMobileSaleTmp" class="displaynone">(모바일 혜택 <span class="txtEm">[TOTAL_ONLY_MOBILE_SALE]</span>)</span></span>
+                <div class="control">
+                    <span class="txtEm"><span id=""></span></span><a href="#auto_discount_layer" class="btnNormal ec-jigsaw-eLayer">할인 내역</a>
+                </div>
+            </div>
+            <div class="discountDetail displaynone ">
+                <strong class="heading">할인코드 적용</strong>
+                <div class="control">
+                    <input type="text" name="ec_discountcode" class="inputTypeText">
+                     <a href="#none" id="ec_discountcode" class="btnNormal">적용</a>
+                </div>
+            </div>
+            <div class="discountDetail ">
+                <strong class="heading">할인코드 적용</strong>
+                <div class="control">
+                    <span id="ec_discountcode_price"></span>
+                    <a href="#none" class="btnNormal" id="ec_discountcode_clear">초기화</a>
+                    <ul id="ec_discountcode_info" class="ec-base-help ec-order-expandwrap"></ul>
+</div>
+            </div>
+            <div class="discountDetail displaynone ">
+                <strong class="heading">쿠폰 할인</strong>
+                <span class="summary">(보유쿠폰 <span class="txtEm">개</span>)</span>
+                <div class="control">
+                    <span class="txtEm"><span id="">0</span></span><a href="#none" id="" class="btnNormal">쿠폰 적용</a>
+                </div>
+            </div>
+            <div class="discountDetail ">
+                <strong class="heading">쿠폰 할인</strong>
+                <span class="summary">(보유쿠폰 <span class="txtEm">개</span>)</span>
+                <div class="control">
+                    <span class="txtEm"><span class="">0</span></span><a href="#none" id="" class="btnNormal">쿠폰 적용</a>
+                </div>
+                <ul class="displaynone">
+<li id="" class="coupon ec-order-expand">
+                        <span id=""></span>
+                        <span id=""></span>
+                        <span id=""></span>
+                        <span id=""></span>
+                        <span id=""></span>
+                        <span class="displaynone" id="">0</span>
+                        <span class="displaynone" id="">0</span>
+                        <span class="displaynone" id="">0</span>
+                    </li>
+                </ul>
+<ul id="" style="display:none;" class="ec-base-help ec-order-expandwrap"></ul>
+</div>
+            <div id="" class="discountDetail displaynone">
+                <strong class="heading"></strong>
+                <span class="summary">(사용 가능 <span class="txtEm"></span>)</span>
+                <div class="control">
+                    <input type="hidden" name="ori_total_avail_mileage" id="ori_total_avail_mileage" value="">
+                    <button type="button" class="btnNormal" id="all_use_mileage">전액 사용</button>
+                </div>
+                <ul class="ec-base-help ec-order-expandwrap">
+<li class="ec-order-expand">최소   이상일 때 사용 가능합니다.</li>
+                    <li id="" class="displaynone">최대 사용금액은 제한이 없습니다.</li>
+                    <li id="" class="displaynone">1회 구매시  최대 사용금액은 입니다.</li>
+                    <li>으로만 결제할 경우, 결제금액이 0으로 보여지는 것은 정상이며 [결제하기] 버튼을 누르면 주문이 완료됩니다.</li>
+                    <li id="" class="displaynone"> 사용 시 배송비는 으로 사용 할 수 없습니다.</li>
+                    <li id="" class="displaynone"> 사용 시 해당 상품에 대한 은 적립되지 않습니다.</li>
+                </ul>
+</div>
+            <div class="discountDetail displaynone">
+                <strong class="heading"></strong>
+                <span class="summary">(사용 가능 <span class="txtEm"></span>)</span>
+                <div class="control">
+                    <input type="hidden" name="ori_total_deposit" id="ori_total_deposit" value="">
+                    <button type="button" class="btnNormal" id="all_use_deposit">전액 사용</button>
+                </div>
+                <ul class="ec-base-help ec-order-expandwrap">
+<li class="ec-order-expand">은 사용제한 없이 언제든 결제가 가능합니다.</li>
+                    <li>으로만 결제할 경우, 결제금액이 0으로 보여지는 것은 정상이며 [결제하기] 버튼을 누르면 주문이 완료됩니다.</li>
+                </ul>
+</div>
+            <div class="totalPay">
+                <h3 class="heading">적용금액</h3>
+                <strong class="txtEm">
+                    -<span id=""></span>                    <span class="refer displaynone">(<span id=""></span>)</span>
+                </strong>
+                <span class="displaynone" id="">0</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 자동 할인내역 레이어 -->
+    <div id="auto_discount_layer" class="autoDiscountLayer">
+        <h1>자동 할인</h1>
+        <div class="wrap">
+            <div class="pannelArea">
+                <div class="title">
+                    <h2>할인내역</h2>
+                </div>
+                <div class="contents">
+                    <div class="segment">
+                        <div class="ec-base-table gCellNarrow">
+                            <table border="1">
+<caption>자동 할인내역 상세</caption>
+                                <colgroup>
+<col style="width:auto">
+<col style="width:175px">
+</colgroup>
+<tbody id="">
+<tr class="displaynone ">
+<th scope="row">정기배송할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone ">
+<th scope="row">기간할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone ">
+<th scope="row">회원할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone ">
+<th scope="row">재구매할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone ">
+<th scope="row">대량구매할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone">
+<th scope="row">바로가기(링콘)할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone ">
+<th scope="row">신규상품할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone ">
+<th scope="row">세트할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone ">
+<th scope="row">배송비할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+<tr class="displaynone ">
+<th scope="row">회원등급할인</th>
+                                    <td class="right">-<span id=""></span>
+</td>
+                                </tr>
+</tbody>
+</table>
+</div>
+                        <div class="totalPay gBlank10">
+                            <h3 class="heading">자동 할인</h3>
+                            <strong class="txtStrong">-<span id=""></span></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="ec-button-offLayer btnClose">닫기</button>
+    </div>
+
+    <!-- app tag -->
+    <div id="ec-orderform-discount-tail"></div>
+</div>
+<!-- [결제정보] -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<div id="ec-jigsaw-area-payment" class="ec-base-fold eToggle selected">
+    <div id="ec-jigsaw-title-payment" class="title">
+        <h2>결제정보</h2>
+    </div>
+    <div class="contents">
+        <!-- app tag -->
+        <div id="ec-orderform-payment-head"></div>
+
+        <div class="segment">
+            <div class="ec-base-table gCellNarrow">
+                <table border="1">
+<caption>결제정보 상세</caption>
+                    <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">주문상품</th>
+                        <td class="right"><span id=""></span></td>
+                    </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                        <td class="right"><span id="">+</span></td>
+                    </tr>
+<tr>
+<th scope="row">할인/부가결제</th>
+                        <td class="right">-<span id=""></span></td>
+                    </tr>
+<tr>
+<th scope="row">배송비</th>
+                        <td class="right">+<span id=""></span>
+</td>
+                    </tr>
+<tr id="">
+<th scope="row">지역별 배송비</th>
+                        <td class="right">+<span id="">0</span>
+</td>
+                    </tr>
+<tr class="displaynone">
+<td colspan="2"><p class="info"><strong>착불 상품이 포함되어 있습니다.</strong></p></td>
+                    </tr>
+</tbody>
+</table>
+</div>
+            <div class="totalPay gBlank10">
+                <h3 class="heading">결제금액</h3>
+                <strong class="txtStrong">
+                    <span id=""></span>                    <span class="refer displaynone">(<span id=""></span>)</span>
+                </strong>
+                <span class="displaynone"></span>
+            </div>
+        </div>
+
+        <!-- app tag -->
+        <div id="ec-orderform-payment-tail"></div>
+    </div>
+</div>
+<!-- [결제수단] -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<div id="ec-jigsaw-area-paymethod" class="ec-base-fold eToggle selected">
+    <div id="ec-jigsaw-title-paymethod" class="title">
+        <h2>결제수단</h2>
+    </div>
+    <div class="contents">
+        <!-- app tag -->
+        <div id="ec-orderform-paymethod-head"></div>
+
+        <div class="segment">
+            <ul class="payMethod">
+<li class="ec-paymethod-recentArea displaynone ">
+                    <input type="radio" name="paymethod" id="paymethod-recent" class="fRadio" ><label for="paymethod-recent">최근 결제수단</label>
+                    <div id="ec-payment-recentPaymethodText" class="inner"></div>
+                </li>
+                <li class="ec-paymethod-newArea ">
+                    <input type="radio" name="paymethod" id="paymethod-new" class="fRadio displaynone" ><label for="paymethod-new"><span class="displaynone">다른 </span>결제수단 선택</label>
+                    <div class="inner">
+                                            </div>
+                </li>
+            </ul>
+</div>
+
+        <div class="ec-paymethod-input-detail">
+            <div id="" class="ec-base-table typeWrite">
+                <table border="1">
+<caption>무통장입금 정보 입력</caption>
+                    <colgroup>
+<col style="width:100px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">입금은행 <span class="icoRequired">필수</span>
+</th>
+                        <td></td>
+                    </tr>
+<tr>
+<th scope="row">입금자명 <span class="icoRequired">필수</span>
+</th>
+                        <td></td>
+                    </tr>
+</tbody>
+</table>
+</div>
+
+            <div id="" class="ec-base-table typeWrite">
+                <table border="1">
+<caption>실시간 계좌이체 정보 입력</caption>
+                    <colgroup>
+<col style="width:100px">
+<col style="width:auto">
+</colgroup>
+<tbody><tr>
+<th scope="row">예금주명 <span class="icoRequired">필수</span>
+</th>
+                        <td></td>
+                    </tr></tbody>
+</table>
+</div>
+
+            <!-- 에스크로(가상계좌) -->
+            <div id="" class="ec-base-table typeWrite">
+                <table border="1">
+<caption>에스크로(가상계좌)</caption>
+                    <colgroup>
+<col style="width:100px">
+<col style="width:auto">
+</colgroup>
+<tbody><tr>
+<th scope="row">에스크로</th>
+                        <td><label for="flagEscrowIcashUse0">에스크로(구매안전)서비스를 적용합니다.</label>
+</td>
+                    </tr></tbody>
+</table>
+</div>
+
+            <!-- 카드사 직접결제: 카드/할부선택 -->
+            <div class="ec-base-table typeWrite">
+                            </div>
+
+            <!-- 결제수단 도움말 -->
+            <div class="helpArea">
+                <!-- 무통장입금, 카드결제, 휴대폰결제, 실시간계좌이체, 페이팔, 엑심베이, 엑시즈, 알리페이 -->
+                <ul id="" class="ec-base-help typeDash">
+<li id="">최소 결제 가능 금액은 총 결제금액에서 배송비를 제외한 금액입니다.</li>
+                    <li id="">소액 결제의 경우 PG사 정책에 따라 결제 금액 제한이 있을 수 있습니다.</li>
+                </ul>
+<!-- 케이페이 도움말 --><ul id="" class="ec-base-help typeDash">
+<li>케이페이 앱을 설치한 후, 최초 1회 카드정보를 등록하셔야 사용 가능합니다.</li>
+                </ul>
+<!-- 페이나우 도움말 --><ul id="" class="ec-base-help typeDash">
+<li>페이나우 앱을 설치한 후, 최초 1회 카드 및 계좌 정보를 등록하셔야 사용 가능합니다.</li>
+                </ul>
+<!-- 페이코 도움말 --><ul id="" class="ec-base-help typeDash">
+<li>페이코(<a href="//www.payco.com" target="_blank">www.payco.com</a>)에 회원가입 후, 최초 1회 카드 및 계좌 정보를 등록하셔야 사용 가능합니다.</li>
+                </ul>
+<!-- 카카오페이 도움말 --><ul id="" class="ec-base-help typeDash">
+<li>카카오톡 앱을 설치한 후, 최초 1회 카드정보를 등록하셔야 사용 가능합니다.</li>
+                    <li>인터넷 익스플로러는 8 이상에서만 결제 가능합니다.</li>
+                    <li>카카오머니로 결제 시, 현금영수증 발급은 ㈜카카오페이에서 발급가능합니다.</li>
+                </ul>
+<!-- 스마일페이 도움말 --><ul id="" class="ec-base-help typeDash">
+<li>앱 설치없이 회원가입 또는 G마켓/옥션/G9 ID 로그인 후 바로 이용 가능합니다.</li>
+                    <li>최초 1회 카드 정보를 등록하셔야 사용 가능합니다.</li>
+                    <li>결제시 스마일캐시 0.5% 자동적립되며(최대5천원), 스마일캐시는 스마일페이 전 가맹점에서 적립과 사용이 가능합니다.</li>
+                </ul>
+<!-- 네이버페이 도움말 --><ul id="" class="ec-base-help typeDash">
+<li>주문 변경 시 카드사 혜택 및 할부 적용 여부는 해당 카드사 정책에 따라 변경될 수 있습니다.</li>
+                    <li>네이버페이는 네이버ID로 별도 앱 설치 없이 신용카드 또는 은행 계좌 정보를 등록하여 네이버페이 비밀번호로 결제할 수 있는 간편결제 서비스입니다.</li>
+                    <li>네이버페이 카드 간편결제는 네이버페이에서 제공하는 카드사별 무이자, 청구 할인 혜택을 받을 수 있습니다.</li>
+                </ul>
+<!-- 토스 도움말 --><ul id="" class="ec-base-help typeDash">
+<li>토스는 간편하게 지문 또는 비밀번호만으로 결제할 수 있는 빠르고 편리한 간편 결제 서비스입니다.</li>
+                    <li>토스 결제 후 취소/반품 등이 발생할 경우 토스를 통한 신용카드 취소/토스머니 환불이 이루어집니다. </li>
+                    <li>토스 이용가능 결제수단 : 국내 발행 신용/체크카드, 토스머니</li>
+                </ul>
+<!-- 카페24페이 도움말 --><ul id="" class="ec-base-help typeDash">
+<li>카페24페이는 카페24에 회원가입 또는 로그인 후 별도 앱 설치 없이 결제 가능합니다.</li>
+                    <li>최초 1회 카드 정보를 등록하여야 사용 가능합니다.</li>
+                </ul>
+<!-- 후불 결제 도움말 --><div id="" class="displaynone">
+                    <!-- NP Postpay/GMO Payment After Delivery -->
+                    <ul id="" class="ec-base-help typeDash">
+<li>상품 수령과 동시에 배송 직원에게 결제 수수료를 지불하는 후불 결제수단입니다.</li>
+                        <li>최종 결제금액은 후불 결제 수수료가 포함된 금액으로 계산됩니다.</li>
+                        <li>희망배송업체/방식을 선택하시면 배송업체별 후불 결제 수수료가 적용됩니다.</li>
+                        <li>결제 수수료 정보를 확인 후 결제하시기 바랍니다.<a href="#ec-orderform-defer-layer" class="txtWord ec-order-deffered-payment-popup ec-jigsaw-showLayer">확인하기</a>
+</li>
+                    </ul>
+<!-- Daibiki (COD) --><ul id="" class="ec-base-help typeDash">
+<li>상품 수령과 동시에 배송 직원에게 결제 수수료를 지불하는 후불 결제수단입니다.</li>
+                        <li>최종 결제금액은 후불 결제 수수료가 포함된 금액으로 계산됩니다.</li>
+                        <li>희망배송업체/방식을 선택하시면 배송업체별 후불 결제 수수료가 적용됩니다.</li>
+                        <li>결제 수수료 정보를 확인 후 결제하시기 바랍니다.<a href="#ec-orderform-defer-layer" class="txtWord ec-order-deffered-payment-popup ec-jigsaw-showLayer">확인하기</a>
+</li>
+                    </ul>
+</div>
+            </div>
+        </div>
+
+        <div id="" class="receiptArea displaynone">
+            <div class="title">
+                <h3>현금영수증</h3>
+            </div>
+                        <div class="ec-cashreceipt-textAndForm">
+                <div class="ec-cashreceipt-textArea ec-base-box gBlank10">
+                    <div class="taxView">
+                        <span class="number"><span id="ec-cashreceipt-userTypeText"></span> <span id="ec-cashreceipt-numberText"></span></span>
+                    </div>
+                    <span class="sideRight"><a href="#none" id="ec-show-cashreceipt-form" class="btnNormal mini">정보변경</a></span>
+                </div>
+
+                <div class="ec-cashreceipt-formArea">
+                    <div id="" class="gBlank10">
+                                                <span id="">
+                                                            </span>
+                        <span id="">
+                                                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                                <div id="" class="receiptArea displaynone">
+            <div class="title">
+                <h3>세금계산서</h3>
+            </div>
+                        <div class="ec-taxRequest-textAndForm">
+                <div class="ec-taxRequest-textArea ec-base-box gBlank10">
+                    <div class="taxView">
+                        <span id="ec-taxRequest-regnoText"></span><br><span id="ec-taxRequest-companyNameText"></span> <span id="ec-taxRequest-presidentNameText"></span><br><span id="ec-taxRequest-address1Text"></span><br><span id="ec-taxRequest-address2Text"></span><br><span id="ec-taxRequest-emailText"></span>
+                    </div>
+                    <span class="sideRight"><a href="#none" id="ec-show-taxRequest-form" class="btnNormal mini">정보변경</a></span>
+                </div>
+
+                <div class="ec-taxRequest-formArea">
+                    <div id="" class="infoForm">
+                        <ul class="ec-base-help typeDash gBreak10">
+<li>세금 계산서 발행 신청을 위해 아래 모든 입력사항을 빠짐없이 입력하십시오.</li>
+                            <li>신청양식 작성 후 사업자 등록증 사본을 팩스()로 보내주십시오.</li>
+                        </ul>
+<h4 class="blind">사업자 정보</h4>
+                        <div class="ec-base-table typeWrite gCellNarrow">
+                            <table border="1">
+<caption>사업자 정보 입력</caption>
+                                <colgroup>
+<col style="width:112px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">사업자구분 <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+<tr>
+<th scope="row">사업자<br>등록번호 <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+<tr>
+<th scope="row">상호명<br>(법인명) <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+<tr>
+<th scope="row">대표자명 <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+<tr>
+<th scope="row">주소 <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+<tr>
+<th scope="row">업태 <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+<tr>
+<th scope="row">종목 <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+</tbody>
+</table>
+</div>
+
+                        <h4 class="blind">신청자 정보</h4>
+                        <div class="ec-base-table typeWrite gCellNarrow">
+                            <table border="1">
+<caption>신청자 정보 입력</caption>
+                                <colgroup>
+<col style="width:112px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">신청자명 <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+<tr>
+<th scope="row">전화번호 <span class="icoRequired">필수</span>
+</th>
+                                    <td></td>
+                                </tr>
+<tr>
+<th scope="row">이메일 <span class="icoRequired">필수</span>
+</th>
+                                    <td>
+                                        <div class="ec-base-mail"></div>
+                                    </td>
+                                </tr>
+</tbody>
+</table>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 결제수단 저장 -->
+        <div class="saveArea segment unique displaynone">
+            <label for=""></label>
+        </div>
+
+        <!-- app tag -->
+        <div id="ec-orderform-paymethod-tail"></div>
+    </div>
+</div>
+<!-- [적립 혜택] -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<div id="ec-jigsaw-area-benefit" class="ec-base-fold eToggle displaynone">
+    <div id="ec-jigsaw-title-benefit" class="title">
+        <h2>적립 혜택</h2>
+        <span id="ec-jigsaw-heading-benefit" class="txtStrong gRight"><span id="-title"></span> 예정</span>
+    </div>
+    <div class="contents">
+        <!-- app tag -->
+        <div id="ec-orderform-benefit-head"></div>
+        <div class="segment">
+            <div class="ec-base-table gCellNarrow">
+                <table border="1">
+<caption>적립 혜택 상세</caption>
+                    <colgroup>
+<col style="width:160px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품별 </th>
+                        <td class="right"><span id=""></span></td>
+                    </tr>
+<tr>
+<th scope="row">회원 </th>
+                        <td class="right"><span id=""></span></td>
+                    </tr>
+<tr>
+<th scope="row">쿠폰 </th>
+                        <td class="right"><span id="">0</span></td>
+                    </tr>
+<tr class="displaynone">
+<th scope="row">플러스앱주문 </th>
+                        <td class="right"><span id=""></span></td>
+                    </tr>
+</tbody>
+</table>
+</div>
+        </div>
+        <div class="totalPay">
+            <h3 class="heading">적립 예정금액</h3>
+            <strong class="txtEm"><span id=""></span></strong>
+        </div>
+        <!-- app tag -->
+        <div id="ec-orderform-benefit-tail"></div>
+    </div>
+</div>
+<!-- [약관동의] -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<!-- 이값은 지우면 안되는 값입니다.
+    $easyform_agreement=T
+-->
+<div id="ec-jigsaw-area-agreement">
+    <div class="agreeArea" id="">
+        <div class="allAgree">
+<input type="checkbox" id="allAgree"><label for="allAgree"><strong>모든 약관 동의</strong></label>
+</div>
+        <div class="agreement">
+            <!-- app tag -->
+            <ul id="ec-orderform-agreement-head"></ul>
+<ul>
+<!-- 구매조건 확인 및 결제진행 동의 --><li id="">
+                    <div class="agree"><span class="check"></span></div>
+                </li>
+                <!-- 결제대행서비스 약관 동의 -->
+                <li id="ec-order-payment-directpay-card-agree" class="displaynone">
+                    <div class="agree">
+                        <span class="check"><input type="checkbox" id="directpay_card_agree_financial" class="directpay_card_agree_checkbox"><label for="directpay_card_agree_financial"><span class="txtEm">[필수]</span> 결제대행서비스 약관 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewPaymentAgree()">내용보기</button>
+                    </div>
+                </li>
+                <!-- 쇼핑몰 이용약관 동의 -->
+                <li class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="mallAgree"><span class="txtEm">[필수]</span> 쇼핑몰 이용약관 동의</label></span>
+                        <span style="display:none;"></span>
+                        <button type="button" class="btnAgree" onclick="viewMallAgree();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 고유식별정보 수집 동의 -->
+                <li id="" class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="privacy_agreement_for_identification_check_box0"><span class="txtEm">[필수]</span> 고유식별정보 수집 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewIdentification();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 개인정보수집 이용동의 -->
+                <li id="ec-orderform-PrivacyAgreementRow" class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="privacy_agreement_check_box0"><span class="txtEm">[필수]</span> 개인정보 수집 및 이용 동의</label></span>
+                        <span style="display:none;"></span>
+                        <button type="button" class="btnAgree" onclick="viewMemberJoinAgree();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 비회원 개인정보 처리방침 -->
+                <li id="ec-orderform-NoMemberAgreementRow" class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="personAgree"><span class="txtEm">[필수]</span> 비회원 구매시 개인정보 처리방침 동의</label></span>
+                        <span style="display:none;"></span>
+                        <button type="button" class="btnAgree" onclick="viewPersonAgree();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 배송정보 제공방침 -->
+                <li class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="delivery_info_offer_check_box0"><span class="txtEm">[필수]</span> 배송정보 제공방침 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewDelivery();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 정기결제 서비스 이용 동의 -->
+                <li class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="subscription_info_checkbox0"><span class="txtEm">[필수]</span> 정기결제 서비스 이용 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewRegularDelivery();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 예약결제 이용 동의 -->
+                <li class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="crowdfunding_info_check_box"><span class="txtEm">[필수]</span> 예약결제 이용 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewCrowdfunding();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 청약철회방침 -->
+                <li class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="subscription_agreement_chk0"><span class="txtEm displaynone">[필수]</span><span class="displaynone">[선택]</span> 청약철회방침 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewSubscription();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 개인정보 제3자 제공 동의 -->
+                <li id="ec-orderform-informationAgreementRow" class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="information_agreement_check_box0">[선택] 개인정보 제3자 제공 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewInformationAgree();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 개인정보취급 위탁 동의 -->
+                <li id="ec-orderform-ConsignmentAgreementRow" class="displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="consignment_agreement_check_box0">[선택] 개인정보취급 위탁 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewConsignmentAgree();">내용보기</button>
+                    </div>
+                </li>
+                <!-- 전자보증보험 -->
+                <li id="" class="insurance displaynone">
+                    <div class="agree">
+                        <span class="check"><label for="insurance_agreement_chk0">[선택] 전자보증보험 발급시 개인정보 이용 동의</label></span>
+                        <button type="button" class="btnAgree" onclick="viewInsurance();">자세히보기</button>
+                    </div>
+                    <div class="insuranceDetail">
+                        <div class="ec-base-table typeWrite gCellNarrow">
+                            <table border="1">
+<caption>전자보증보험 발급 개인정보 입력</caption>
+                                <colgroup>
+<col style="width:96px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">생년월일</th>
+                                    <td>년 월 일</td>
+                                </tr>
+<tr>
+<th scope="row">성별</th>
+                                    <td></td>
+                                </tr>
+<tr class="displaynone">
+<th scope="row">개인정보 이용동의</th>
+                                    <td></td>
+                                </tr>
+</tbody>
+</table>
+</div>
+                        <div class="ec-base-help ec-order-expandwrap">
+                            <strong class="insuranceTitle ec-order-expand">전자보증보험(100% 매매보호 안전결제)이란?</strong>
+                            <div class="insuranceText">물품대금결제시 구매자의 피해보호를 위해 '(주)서울보증보험'의 보증보험증권이 발급됩니다.<br>
+                                증권이 발급되는 것의 의미는, 물품대금 결제시에 소비자에게 서울보증보험의 쇼핑몰보증보험 계약체결서를 인터넷상으로 자동 발급하여, 피해발생시 쇼핑몰보증보험으로써 완벽하게 보호받을 수 있습니다. 또한, 입력하신 개인정보는 증권발급을 위해 필요한 정보이며 다른 용도로 사용되지 않습니다.
+                                전자보증보험 발생시 별도의 수수료가 부과되지 않습니다.</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+<!-- app tag --><ul id="ec-orderform-agreement-tail"></ul>
+</div>
+    </div>
+</div>
+<div class="ec-base-button gFull" id="orderFixItem">
+            <button type="button" class="btnSubmit" id="">
+                <span id=""></span> <span class="displaynone">결제하기</span><span class="displaynone">정기배송 신청하기</span>
+            </button>
+        </div>
+<div class="helpArea">
+            <ul class="ec-base-help typeDash">
+<li class="displaynone"><span class="txtEm">상기 금액은 결제 시점의 금액과 다를 수 있습니다.</span></li>
+                <li>무이자할부가 적용되지 않은 상품과 무이자할부가 가능한 상품을 동시에 구매할 경우 전체 주문 상품 금액에 대해 무이자할부가 적용되지 않습니다. 무이자할부를 원하시는 경우 장바구니에서 무이자할부 상품만 선택하여 주문하여 주시기 바랍니다.</li>
+                <li>최소 결제 가능 금액은 결제금액에서 배송비를 제외한 금액입니다.</li>
+            </ul>
+</div>
+<!-- [주문 정보 확인 레이어팝업] -->
+<!--
+        이 파일은 원터치 주문서의 읽기 전용 파일입니다.
+        이 파일은 기능 업그레이드 시, 자동으로 개선된 소스가 적용되어 별도로 디자인 수정을 하지 않아도 됩니다 .
+        원터치 주문서 조각 html 파일을 수정할 경우, 작성한 정보가 유실되거나 주문서 최신 기능이 자동 업그레이드되지 않을 수 있으니 유의해 주세요.
+-->
+<div id="" class="orderConfirmLayer">
+    <div class="ec-base-layer typeWide">
+        <h1>주문 정보 확인</h1>
+        <div class="wrap">
+            <p class="ec-base-help">작성하신 내용을 확인하신 후에 주문 완료해 주세요.</p>
+
+            <!-- app tag -->
+            <div id="ec-orderform-confirm-head"></div>
+
+            <!-- [주문배송정보] 주문자정보, 배송지정보 -->
+            <!-- 주문자정보 -->
+            <div class="pannelArea displaynone">
+                <div class="title">
+                    <h2>주문 정보</h2>
+                </div>
+                <div class="contents">
+                    <div class="segment">
+                        <div class="ec-base-table typeView">
+                            <table border="1">
+<caption>주문자정보</caption>
+                                <colgroup>
+<col style="width:88px">
+<col style="width:auto">
+</colgroup>
+<!-- 국내/해외 주문자 정보 --><tbody class=" displaynone">
+<tr>
+<th scope="row">주문자</th>
+                                    <td>
+<span class=""></span>(<span class=""></span>)</td>
+                                </tr>
+<tr class="displaynone">
+<th scope="row">주소</th>
+                                    <td><span class=""></span></td>
+                                </tr>
+<tr class="ec-shop-confirm-billingInfo-phoneNumber">
+<th scope="row">연락처</th>
+                                    <td>
+<span class="displaynone"><span class=""></span></span> <span class="ec-shop-delimiter">/</span> <span class="displaynone"><span class=""></span></span>
+</td>
+                                </tr>
+</tbody>
+</table>
+</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- app 배송지정보 -->
+            <div class="pannelArea" id="ec-shop-confirm-appshippingInfo">
+                <div class="title">
+                    <h2>배송지</h2>
+                </div>
+                <div class="contents">
+                    <div class="segment">
+                        <div class="ec-base-table typeView">
+                            <table border="1">
+<colgroup>
+<col style="width:88px">
+<col style="width:auto">
+</colgroup>
+<tbody><tr>
+<th scope="row">이메일</th>
+                                    <td> <span class=""></span>
+</td>
+                                </tr></tbody>
+</table>
+</div>
+                    </div>
+                    <div id="ec-shop-confirm-appshippingInfo-shippingInfo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 배송지정보 -->
+            <div class="pannelArea" id="ec-shop-confirm-shippingInfo">
+                <div class="title">
+                    <h2>배송지</h2>
+                </div>
+                <div class="contents">
+                    <div class="segment">
+                        <!-- 국내배송 정보 -->
+                        <div class="ec-base-table typeView displaynone">
+                            <table border="1">
+<caption>배송지정보</caption>
+                                <colgroup>
+<col style="width:88px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">받는사람</th>
+                                    <td>
+<span class=""></span><span class="displaynone">(<span class=""></span>)</span>
+</td>
+                                </tr>
+<tr class="ec-shop-confirm-shippingAddress">
+<th scope="row">주소</th>
+                                    <td>
+                                        <span class=""></span>
+                                    </td>
+                                </tr>
+<tr class="ec-shop-confirm-storePickup">
+<th scope="row">수령지</th>
+                                    <td>
+                                        <span class="ec-shop-confirm-storePickupAddress"></span>에서 수령예정
+                                        <p class="ec-base-help"><span class="ec-shop-confirm-storePickupDate txtNormal"></span></p>
+                                    </td>
+                                </tr>
+<tr class="ec-shop-confirm-shippingInfo-phoneNumber">
+<th scope="row">연락처</th>
+                                    <td>
+<span class="displaynone"><span class=""></span></span> <span class="ec-shop-delimiter">/</span> <span class="displaynone"><span class=""></span></span>
+</td>
+                                </tr>
+<tr>
+<th scope="row">배송요청</th>
+                                    <td>
+                                        <span class="displaynone "><span class=""></span></span>
+                                        <span class="displaynone gBlank5"><span class=""></span></span>
+                                        <span class="displaynone gBlank5"><span class=""></span></span>
+                                        <span class="displaynone gBlank5"><span class=""></span></span>
+                                    </td>
+                                </tr>
+</tbody>
+</table>
+</div>
+                        <!-- 해외배송 정보 -->
+                        <div class="ec-base-table typeView displaynone">
+                            <table border="1">
+<caption>배송지정보</caption>
+                                <colgroup>
+<col style="width:88px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">받는사람</th>
+                                    <td>
+<span class=""></span><span class="displaynone">(<span class=""></span>)</span>
+</td>
+                                </tr>
+<tr class="ec-shop-confirm-shippingAddressGlobal">
+<th scope="row">주소</th>
+                                    <td><span class=""></span></td>
+                                </tr>
+<tr class="ec-shop-confirm-storePickup">
+<th scope="row">수령지</th>
+                                    <td>
+                                        <span class="ec-shop-confirm-storePickupAddress"></span>에서 수령예정
+                                        <p class="ec-base-help"><span class="ec-shop-confirm-storePickupDate txtNormal"></span></p>
+                                    </td>
+                                </tr>
+<tr class="ec-shop-confirm-shippingInfo-oversea-phoneNumber">
+<th scope="row">연락처</th>
+                                    <td>
+<span class="displaynone"><span class=""></span></span> <span class="ec-shop-delimiter">/</span> <span class="displaynone"><span class=""></span></span>
+</td>
+                                </tr>
+<tr>
+<th scope="row">배송요청</th>
+                                    <td>
+                                        <span class="displaynone "><span class=""></span></span>
+                                        <span class="displaynone gBlank5"><span class=""></span></span>
+                                        <span class="displaynone gBlank5"><span class=""></span></span>
+                                        <span class="displaynone gBlank5"><span class=""></span></span>
+                                    </td>
+                                </tr>
+<tr class="displaynone">
+<th scope="row">배송비</th>
+                                    <td>
+                                        <div class=" displaynone">
+                                            <p class="gBreak5"><span class="txtEm"><span id=""></span></span></p>
+                                            <div class="ec-base-table gCellNarrow">
+                                                <table border="1">
+<caption>배송비 상세</caption>
+                                                    <colgroup>
+<col style="width:104px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">해외배송비</th>
+                                                        <td class="right"><span id=""></span></td>
+                                                    </tr>
+<tr>
+<th scope="row">보험료</th>
+                                                        <td class="right">+<span id=""></span></td>
+                                                    </tr>
+<tr class="">
+<th scope="row"><span id=""></span></th>
+                                                        <td class="right">+<span id=""></span></td>
+                                                    </tr>
+</tbody>
+</table>
+</div>
+                                            <p class="ec-base-help typeDash">보험료는 배송과정에서 발생하는 분실, 도난, 파손 등으로 인한 손해에 대하여 규정에 따라 배상해 드리는 서비스입니다.</p>
+                                        </div>
+                                        <div class=" displaynone">
+                                            <p class="gBreak5"><span class="txtEm"><span id=""></span></span></p>
+                                            <div class="ec-base-table gCellNarrow">
+                                                <table border="1">
+<caption>배송비 상세</caption>
+                                                    <colgroup>
+<col style="width:104px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">해외배송비</th>
+                                                        <td class="right"><span id=""></span></td>
+                                                    </tr>
+<tr>
+<th scope="row">보험료</th>
+                                                        <td class="right">+<span id=""></span></td>
+                                                    </tr>
+</tbody>
+</table>
+</div>
+                                            <ul class="ec-base-help typeDash">
+<li>배송비에는 관세 및 세금 등의 각종 비용은 포함되어 있지 않습니다. 상품수령 시 고객님이 추가로 지불하셔야 합니다.</li>
+                                                <li>보험료는 배송과정에서 발생하는 분실, 도난, 파손 등으로 인한 손해에 대하여 규정에 따라 배상해 드리는 서비스입니다.</li>
+                                            </ul>
+</div>
+                                    </td>
+                                </tr>
+</tbody>
+</table>
+</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- [주문상품] -->
+            <div class="pannelArea">
+                <div class="title">
+                    <h2>주문상품</h2>
+                </div>
+                <div class="contents">
+                    <!-- 국내배송상품 주문내역 -->
+                    <div class="orderArea displaynone">
+                        <!-- 기본배송 -->
+                        <div class="xans-element- xans-order xans-order-normallist"><!-- 참고: 상품반복 -->
+<div class="ec-base-prdInfo ">
+                                <div class="prdBox">
+                                    <div class="thumbnail"><a href="../product/detail.html"><img src="../order" alt="" width="90" height="90"></a></div>
+                                    <div class="description">
+                                        <strong class="prdName" title="상품명"> </strong>
+                                        <ul class="info">
+<li class="displaynone">무이자할부 상품</li>
+                                            <li title="유효기간" class="displaynone"> 내 사용</li>
+                                            <li title="옵션">
+                                                <p class="option displaynone"></p>
+                                                <ul class="xans-element- xans-order xans-order-optionset option"><li class=""> -  (개)</li>
+</ul>
+</li>
+                                            <li>수량: 개</li>
+                                            <li>
+                                                <span id="">상품구매금액:  </span>
+                                                <span class="displaynone">()</span>
+                                            </li>
+                                            <li id="" class="displaynone">
+                                                할인금액: <span class="txtWarn">-<span id=""></span> </span>
+                                                <span class="txtWarn displaynone">()</span>
+                                            </li>
+                                            <li title="배송"> / 기본배송 <span class="displaynone">(해외배송가능)</span>
+</li>
+                                            <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                                        </ul>
+</div>
+                                </div>
+                            </div>
+<!-- //참고 -->
+</div>
+                        <div class="totalPrice ec-base-fold eToggle displaynone">
+                            <div class="title">
+                                <h3>[기본배송]</h3>
+                            </div>
+                            <div class="contents">
+                                <div class="ec-base-table gCellNarrow">
+                                    <table border="1">
+<caption>금액정보</caption>
+                                        <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품구매금액</th>
+                                            <td class="right"><span class="txtStrong">+<span class="displaynone"> ()</span></span></td>
+                                        </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                            <td class="right"><span class="txtStrong">+</span></td>
+                                        </tr>
+<tr id="{$confirm_normal_total_benefit_price_area_id }" class="displaynone">
+<th scope="row">할인금액</th>
+                                            <td class="right"><span class="txtStrong">-<span id=""></span></span></td>
+                                        </tr>
+<tr>
+<th scope="row">배송비</th>
+                                            <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                                        </tr>
+<tr class="displaynone">
+<th scope="row">합계</th>
+                                            <td class="right"><span class="txtStrong"><span id=""></span> <span class="refer displaynone">()</span></span></td>
+                                        </tr>
+</tbody>
+</table>
+</div>
+                            </div>
+                        </div>
+
+                        <!-- 업체기본배송 -->
+                        <div class="xans-element- xans-order xans-order-supplierlist"><!-- 참고: 상품반복 -->
+<div class="ec-base-prdInfo ">
+                                <div class="prdBox">
+                                    <div class="thumbnail"><a href="../product/detail.html"><img src="../order" alt="" width="90" height="90"></a></div>
+                                    <div class="description">
+                                        <strong class="prdName" title="상품명"> </strong>
+                                        <ul class="info">
+<li class="displaynone">무이자할부 상품</li>
+                                            <li title="유효기간" class="displaynone"> 내 사용</li>
+                                            <li title="옵션">
+                                                <p class="option displaynone"></p>
+                                                <ul class="xans-element- xans-order xans-order-optionset option"><li class=""> -  (개)</li>
+</ul>
+</li>
+                                            <li>수량: 개</li>
+                                            <li>
+                                                <span id="">상품구매금액:  </span>
+                                                <span class="displaynone">()</span>
+                                            </li>
+                                            <li id="" class="displaynone">
+                                                할인금액: <span class="txtWarn">-<span id=""></span> </span>
+                                                <span class="txtWarn displaynone">()</span>
+                                            </li>
+                                            <li title="배송"> / 업체기본배송 <span class="displaynone">(해외배송가능)</span>
+</li>
+                                            <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                                        </ul>
+</div>
+                                </div>
+                            </div>
+<!-- //참고 -->
+</div>
+                        <div class="totalPrice ec-base-fold eToggle displaynone">
+                            <div class="title">
+                                <h3>[업체기본배송]</h3>
+                            </div>
+                            <div class="contents">
+                                <div class="ec-base-table gCellNarrow">
+                                    <table border="1">
+<caption>금액정보</caption>
+                                        <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품구매금액</th>
+                                            <td class="right"><span class="txtStrong">+<span class="displaynone"> ()</span></span></td>
+                                        </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                            <td class="right"><span class="txtStrong">+</span></td>
+                                        </tr>
+<tr id="" class="displaynone">
+<th scope="row">할인금액</th>
+                                            <td class="right"><span class="txtStrong">-<span id=""></span></span></td>
+                                        </tr>
+<tr>
+<th scope="row">배송비</th>
+                                            <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                                        </tr>
+<tr class="displaynone">
+<th scope="row">합계</th>
+                                            <td class="right"><span class="txtStrong"><span id=""></span> <span class="refer displaynone">()</span></span></td>
+                                        </tr>
+</tbody>
+</table>
+</div>
+                            </div>
+                        </div>
+
+                        <!-- 개별배송 -->
+                        <div class="xans-element- xans-order xans-order-individuallist"><!-- 참고: 상품반복 -->
+<div class="ec-base-prdInfo ">
+                                <div class="prdBox">
+                                    <div class="thumbnail"><a href="../product/detail.html"><img src="../order" alt="" width="90" height="90"></a></div>
+                                    <div class="description">
+                                        <strong class="prdName" title="상품명"> </strong>
+                                        <ul class="info">
+<li class="displaynone">무이자할부 상품</li>
+                                            <li title="유효기간" class="displaynone"> 내 사용</li>
+                                            <li title="옵션">
+                                                <p class="option displaynone"></p>
+                                                <ul class="xans-element- xans-order xans-order-optionset option"><li class=""> -  (개)</li>
+</ul>
+</li>
+                                            <li>수량: 개</li>
+                                            <li>
+                                                <span id="">상품구매금액:  </span>
+                                                <span class="displaynone">()</span>
+                                            </li>
+                                            <li id="" class="displaynone">
+                                                할인금액: <span class="txtWarn">-<span id=""></span> </span>
+                                                <span class="txtWarn displaynone">()</span>
+                                            </li>
+                                            <li title="배송"> / 개별배송 <span class="displaynone">(해외배송가능)</span>
+</li>
+                                            <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                                        </ul>
+</div>
+                                </div>
+                            </div>
+<!-- //참고 -->
+</div>
+                        <div class="totalPrice ec-base-fold eToggle displaynone">
+                            <div class="title">
+                                <h3>[개별배송]</h3>
+                            </div>
+                            <div class="contents">
+                                <div class="ec-base-table gCellNarrow">
+                                    <table border="1">
+<caption>금액정보</caption>
+                                        <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품구매금액</th>
+                                            <td class="right"><span class="txtStrong">+<span class="displaynone"> ()</span></span></td>
+                                        </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                            <td class="right"><span class="txtStrong">+</span></td>
+                                        </tr>
+<tr id="" class="displaynone">
+<th scope="row">할인금액</th>
+                                            <td class="right"><span class="txtStrong">-<span id=""></span></span></td>
+                                        </tr>
+<tr>
+<th scope="row">배송비</th>
+                                            <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                                        </tr>
+<tr class="displaynone">
+<th scope="row">합계</th>
+                                            <td class="right"><span class="txtStrong"><span id=""></span> <span class="refer displaynone">()</span></span></td>
+                                        </tr>
+</tbody>
+</table>
+</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 해외배송상품 주문내역 -->
+                    <div class="orderArea displaynone">
+                        <div class="xans-element- xans-order xans-order-oversealist"><!-- 참고: 상품반복 -->
+<div class="ec-base-prdInfo ">
+                                <div class="prdBox">
+                                    <div class="thumbnail"><a href="../product/detail.html"><img src="../order" alt="" width="90" height="90"></a></div>
+                                    <div class="description">
+                                        <strong class="prdName" title="상품명"> </strong>
+                                        <ul class="info">
+<li class="displaynone">무이자할부 상품</li>
+                                            <li title="유효기간" class="displaynone"> 내 사용</li>
+                                            <li title="옵션">
+                                                <p class="option displaynone"></p>
+                                                <ul class="xans-element- xans-order xans-order-optionset option"><li class=""> -  (개)</li>
+</ul>
+</li>
+                                            <li>수량: 개</li>
+                                            <li>
+                                                <span id="">상품구매금액:  </span>
+                                                <span class="displaynone">()</span>
+                                            </li>
+                                            <li id="" class="displaynone">
+                                                할인금액: <span class="txtWarn">-<span id=""></span> </span>
+                                                <span class="txtWarn displaynone">()</span>
+                                            </li>
+                                            <li title="배송"> / 해외배송</li>
+                                            <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                                        </ul>
+</div>
+                                </div>
+                            </div>
+<!-- //참고 -->
+</div>
+                        <div class="totalPrice ec-base-fold eToggle displaynone">
+                            <div class="title">
+                                <h3>[해외배송]</h3>
+                            </div>
+                            <div class="contents">
+                                <div class="ec-base-table gCellNarrow">
+                                    <table border="1">
+<caption>금액정보</caption>
+                                        <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품구매금액</th>
+                                            <td class="right"><span class="txtStrong">+<span class="displaynone"> ()</span></span></td>
+                                        </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                            <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                                        </tr>
+<tr id="" class="displaynone">
+<th scope="row">할인금액</th>
+                                            <td class="right"><span class="txtStrong">-<span id=""></span></span></td>
+                                        </tr>
+<tr>
+<th scope="row">배송비</th>
+                                            <td class="right"><span class="txtStrong">+<span id=""></span></span></td>
+                                        </tr>
+<tr class="displaynone">
+<th scope="row">합계</th>
+                                            <td class="right">
+                                                        <span class="txtStrong">
+                                                            <span id=""></span>                                                            <span class="refer displaynone">(<span id=""></span>)</span>
+                                                        </span>
+                                            </td>
+                                        </tr>
+</tbody>
+</table>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 바로구매 주문서폼 -->
+                    <div id="" class="orderArea displaynone"></div>
+                    <div id="" class="displaynone">
+                        <div class="ec-base-prdInfo">
+                            <div class="prdBox">
+                                <div class="thumbnail"><a class=""><img class="" src="//img.echosting.cafe24.com/thumb/img_product_big.gif" alt="" width="90" height="90"></a></div>
+                                <div class="description">
+                                    <strong class="prdName " title="상품명"></strong>
+                                    <ul class="info">
+<li class="displaynone ">무이자할부 상품</li>
+                                        <li title="유효기간" class="displaynone ">
+<span class=""></span>내 사용</li>
+                                        <li title="옵션">
+                                            <p class="option displaynone "></p>
+                                        </li>
+                                        <li>수량: <span class=""></span>
+</li>
+                                        <li>
+                                            상품구매금액: <span><span class=""></span> </span>
+                                            <span class="displaynone "></span>
+                                        </li>
+                                        <li class="displaynone ">
+                                            할인금액: <span class="txtWarn">-<span class=""></span> </span>
+                                            <span class="txtWarn displaynone "></span>
+                                        </li>
+                                        <li class="displaynone">상품중량 : kg * 개 = kg</li>
+                                    </ul>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalWeight displaynone">전체 상품중량 : <span>kg</span>
+</div>
+                </div>
+            </div>
+
+            <!-- [사은품] -->
+            <div class="pannelArea" id="">
+                <div class="title">
+                    <h2>사은품</h2>
+                </div>
+                <div class="contents">
+                    <div class="giftArea" id=""></div>
+                </div>
+            </div>
+
+            <!-- [결제수단] -->
+            <div class="pannelArea">
+                <div class="title">
+                    <h2>결제수단</h2>
+                </div>
+                <div class="contents">
+                    <div class="segment">
+                        <div class="ec-base-table typeView">
+                            <table border="1">
+<caption>결제수단</caption>
+                                <colgroup>
+<col style="width:105px">
+<col style="width:auto">
+</colgroup>
+<tbody id=""></tbody>
+</table>
+</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- [결제정보] -->
+            <div class="pannelArea">
+                <div class="title">
+                    <h2>결제정보</h2>
+                </div>
+                <div class="contents">
+                    <div class="segment">
+                        <div class="ec-base-table gCellNarrow">
+                            <table border="1">
+<caption>결제정보 상세</caption>
+                                <colgroup>
+<col style="width:140px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">주문상품</th>
+                                    <td id="" class="right"></td>
+                                </tr>
+<tr class="displaynone">
+<th scope="row">부가세</th>
+                                    <td id="" class="right">+</td>
+                                </tr>
+<tr class="ec-order-expandwrap displaynone" id="">
+<th scope="row"><strong class="ec-order-expand">할인/부가결제</strong></th>
+                                    <td class="right">-<span id=""></span></td>
+                                </tr>
+<tr class="discountArea">
+<td colspan="2">
+                                        <div id="" class="ec-base-box displaynone">
+                                            <strong class="heading">자동 할인</strong>
+                                            <div class="ec-base-table gCellNarrow">
+                                                <table border="1">
+<caption>상세내역</caption>
+                                                    <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody id="">
+<tr id="">
+<th>모바일할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>정기배송할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>기간할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>회원할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>재구매할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>대량구매할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>바로가기(링콘)할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>신규상품할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>세트할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>배송비할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>회원등급할인</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>할인코드 적용</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+</tbody>
+</table>
+</div>
+                                        </div>
+                                        <div id="" class="ec-base-box">
+                                            <strong class="heading">쿠폰 할인</strong>
+                                            <div class="ec-base-table gCellNarrow">
+                                                <table border="1">
+<caption>상세내역</caption>
+                                                    <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr id="">
+<th>상품별 할인쿠폰</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>주문별 할인쿠폰</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th>배송비 할인쿠폰</th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+</tbody>
+</table>
+</div>
+                                        </div>
+                                        <div id="" class="ec-base-box displaynone">
+                                            <strong class="heading">부가결제</strong>
+                                            <div class="ec-base-table gCellNarrow">
+                                                <table border="1">
+<caption>상세내역</caption>
+                                                    <colgroup>
+<col style="width:122px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr id="">
+<th scope="row"></th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+<tr id="">
+<th scope="row"></th>
+                                                        <td class="right">-<span id=""></span>
+</td>
+                                                    </tr>
+</tbody>
+</table>
+</div>
+                                        </div>
+                                    </td>
+                                </tr>
+<tr>
+<th scope="row">배송비</th>
+                                    <td class="right">+<span id=""></span>
+</td>
+                                </tr>
+<tr id="">
+<th scope="row">지역별 배송비</th>
+                                    <td class="right">+<span id=""></span>
+</td>
+                                </tr>
+</tbody>
+</table>
+</div>
+                        <div class="totalPay gBlank10">
+                            <h3 class="heading">결제금액</h3>
+                            <strong class="txtStrong">
+                                <span id=""></span>                                <span class="refer displaynone">(<span id=""></span>)</span>
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- [적립 혜택] -->
+            <div class="pannelArea" id="">
+                <div class="title">
+                    <h2>적립 혜택</h2>
+                </div>
+                <div class="contents">
+                    <div class="segment">
+                        <div class="ec-base-table gCellNarrow">
+                            <table border="1">
+<caption>적립 혜택 상세</caption>
+                                <colgroup>
+<col style="width:160px">
+<col style="width:auto">
+</colgroup>
+<tbody>
+<tr>
+<th scope="row">상품별 </th>
+                                    <td class="right"><span id=""></span></td>
+                                </tr>
+<tr>
+<th scope="row">회원 </th>
+                                    <td class="right"><span id=""></span></td>
+                                </tr>
+<tr>
+<th scope="row">쿠폰 </th>
+                                    <td class="right"><span id=""></span></td>
+                                </tr>
+<tr class="displaynone">
+<th>플러스앱주문 </th>
+                                    <td class="right"><span id=""></span></td>
+                                </tr>
+</tbody>
+</table>
+</div>
+                    </div>
+                    <div class="totalPay">
+                        <h3 class="heading">적립 예정금액</h3>
+                        <strong class="txtEm"><span id=""></span></strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- [추가정보입력] 추가입력, 기타문의사항 -->
+            <div class="pannelArea displaynone">
+                <div class="title">
+                    <h2>추가입력</h2>
+                </div>
+                <div class="contents">
+                    <div class="segment">
+                        <div class="ec-base-table typeView">
+                            <table border="1">
+<caption>추가입력</caption>
+                                <colgroup>
+<col style="width:105px">
+<col style="width:auto">
+</colgroup>
+<tbody id="" class="displaynone"></tbody>
+<tbody id="" class="questionArea displaynone"><tr>
+<th scope="row">기타 문의사항</th>
+                                    <td id=""></td>
+                                </tr></tbody>
+</table>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- app tag -->
+        <div id="ec-orderform-confirm-tail"></div>
+
+        <div class="ec-base-button gFull">
+            <button type="button" class="btnSubmit" id="">
+                <span id=""></span> 결제하기
+            </button>
+        </div>
+        <button type="button" class="btnClose" onclick="">닫기</button>
+    </div>
+</div>
+<iframe id="" name="h_payment" width="0" height="0" frameborder="0" src=""></iframe>
+<input type="hidden" id="sPrdName" name="sPrdName" value="">
+
+     
+</div>
+    <div id="progressPaybar" style="display:none;">
+        <div id="progressPaybarBackground" class="layerProgress"></div>
+        <div id="progressPaybarView">
+            <p class="graph">현재 결제가 진행중입니다.</p>
+            <p class="txt">
+                본 결제 창은 결제완료 후 자동으로 닫히며, <br>
+                결제 진행 중에 본 결제 창을 닫으시면<br>
+                주문이 되지 않으니 <br>
+                결제 완료 될 때 까지 닫지 마시기 바랍니다.
+            </p>
+        </div>
+    </div>
+<script type="text/javascript" src="http://ecudemo200642.cafe24.com/ind-script/i18n.php?lang=ko_KR&domain=front&v=2201261295" charset="utf-8"></script>
+
+<script src="http://ecudemo200642.cafe24.com/ind-script/optimizer.php?filename=zVhNc9owEL0D1_4ON22n02tCkjYtaZiETM5CXpuNJa2qjxDy6yvbpBOaYmwphw4DNmbf2_Xq7WpNtiIJ2dEHkxWGSViTqTIDlrzhkN3bDI--qMm9fZd12XnUjFfZ_S8PZrM9fJx8nrwfiIRHB0YxYbcXJpyoQkhl8UZE3cIE-KRQ0VBFnFQhkLsoiqPJp_CKch5-dWT-yps2VAb8zurmzIHDYCCDlXIZ8Mvm5A7davF0yhybSFQDeAQuAwoW4fwwymqDyhU96In7OqxzMnJKyhkSAsxh3Fx4e6z1icG87BGPdygOWxWGmkyNLImAIDVypEcCFYyWTKk-cbUUnKQk1df6kalQjSpIWxtw_b00OAdSi7Au_wYxrbNLWqKA7PoFvo2vIyt7cJJyHy7ZNephDguveJ3Q2i73oWzkXhH3ZegIIkg1u22r5yWFYE8bQSwfBJLesdrv1dKCedi3OHvAmsSmQNFbejkUzAtXp8BKZtxJh-pqo5sV6R2H5w3ND1Yxyqr6c46PILqqpINm2qjktlMke6DXUIABxWHqTX3czA3y5G6_LLEB_R97Tx46obJBGjaVCZhFVaaySHAsr_v60MX6Cev6PW8L60rXcu-oTZBLMLs10lyaroBXZ9bGYL8TxsIatxd5Cnq-TkGfSdbZRjvzFda9JrpQBUVQ3GBo_vAnkn77YNv281d7xkHFaeFLVO1I0BA9nxz2K5liZT2LeAtjg-XKDcTkhpUdCWpNXyZoDUtB5aBu_dyrMhvqZKxfd6xBeL79Ni7CaMNcaiRvRdNvvVZOijCVoUOwg9LO7Ebx9jMa12o7Gn5lcjBcuWiCE2YrcOkMHQrqzbFtytEsU_KaVMq9XIZJjJXx93EKmizG-79Du5qhTSPg5BNSYIBDAvy6gS_IMTFNiqNRdrygQEGBqaKesU1CDF8Ny-OldOwdhR6IvKEJ08w6XtVhzMY5aa_jKTYzrGBboGkLu0OVJPYZPkB4YK06J7geKvuG9f8MmzfQ65ZpwZZvwnMRHngjM6SZWxkSMH5gAsPsQvE6nu19jNwD1hF9vN0Hx2GMaYbj3w&type=js&k=86ee91786117b0220cbfa89b26214ef83117abb1&t=1643086076" ></script><script src="http://ecudemo200642.cafe24.com/ind-script/optimizer.php?filename=rc4xEsIwDATAB5iWdyhkGD5Bxw8cSSQOVpSR7ILfE7uhZ-hurtg7WFQYGEN1Nj9CJRYdh-F2HWGvU04YliIZnDgQe5o3mKIz5PjWWlpOCKsDqohup9XP0MnLaLCbzhYFjF2rIbeiMBYmUCO2ttvDU01gR3hpuD-a1lv_aj8cPBRRqrmvUsUCxCWm_Gc0SZz5MD8&type=js&k=49dde1f4a94055d296ff9fb2ad34f81a0f662095&t=1638233126&user=T" ></script>
+<script type="text/javascript">
+CAFE24.MOBILE_WEB = false; var mobileWeb = CAFE24.MOBILE_WEB;
+var sCountry = '';
+sErrorMessage = "";
+var aLogData = {"log_server1":"eclog2-225.cafe24.com","log_server2":"elg-db-svcm-269.cafe24.com","mid":"ecudemo200642","stype":"e","domain":"","shop_no":1,"lang":"ko_KR","ver":2,"hash":"","ca":"cfa-js.cafe24.com\/cfa.js","etc":""};
+var sMileageName = '적립금';
+var sMileageUnit = '[:PRICE:]원';
+var sDepositName = '예치금';
+var sDepositUnit = '원';
+CAFE24.SHOP_CURRENCY_INFO = {"1":{"aShopCurrencyInfo":{"currency_code":"KRW","currency_no":"410","currency_symbol":"\uffe6","currency_name":"South Korean won","currency_desc":"\uffe6 \uc6d0 (\ud55c\uad6d)","decimal_place":0,"round_method_type":"F"},"aShopSubCurrencyInfo":null,"aBaseCurrencyInfo":{"currency_code":"KRW","currency_no":"410","currency_symbol":"\uffe6","currency_name":"South Korean won","currency_desc":"\uffe6 \uc6d0 (\ud55c\uad6d)","decimal_place":0,"round_method_type":"F"},"fExchangeRate":1,"fExchangeSubRate":null,"aFrontCurrencyFormat":{"head":"","tail":"\uc6d0"},"aFrontSubCurrencyFormat":{"head":"","tail":""}}}; var SHOP_CURRENCY_INFO = CAFE24.SHOP_CURRENCY_INFO;
+var EC_ASYNC_LIVELINKON_ID = '';
+if (EC$('[async_section=before]').length > 0) {
+EC$('[async_section=before]').addClass('displaynone');
+}
+
+</script></body></html>
+

@@ -1,0 +1,5 @@
+
+            <script type='text/javascript'>
+                location.replace('/member/login.html?returnUrl=%2Fmyshop%2Fboard_list.html');
+            </script>
+            

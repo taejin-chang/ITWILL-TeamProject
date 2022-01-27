@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- WAS 프로그램 시작시 인스턴스 생성에 필요한 정보에 이름을 부여하여 제공하는 파일 -->
+<Context>
+	<!-- Resource : 인스턴스 생성에 필요한 정보를 속성과 속성값으로 제공하는 엘리먼트 -->
+	<!-- name 속성 : 인스턴스 생성에 필요한 정보의 이름(식별자)를 속성값으로 설정 -->
+	<!-- auth 속성 : 인스턴스를 관리하는 사용자명을 속성값으로 설정 -->
+	<!-- type 속성 : 생성되어 반환되는 인스턴스의 자료형(클래스)을 속성값으로 설정 -->
+	<!-- factory 속성 : 인스턴스를 생성하는 Factory 클래스를 속성값으로 설정 -->
+	<!-- 기타 속성 : 인스턴스에 필요한 정보를 속성(필드명)과 속성값(필드값)으로 설정 -->
+	<Resource name="jdbc/oracle" auth="Container" type="javax.sql.DataSource"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@localhost:1521:scott" username="scott" password="tiger"
+		initialSize="10" maxIdle="10" maxTotal="15"/>
+</Context>
+
+
+<!-- Factory Class : 보다 안정적으로 인스턴스를 만들어주는 클래스 -->
+<!-- Factory class가 잇다면 new 대신 사용하는 것을 권장 -->
+<!-- JNDI가 좋은 이유는 실제 인스턴스를 개발자가 아닌 WAS가 만들어주기때문에
+관리가 좋음 -> 'IOC 제어의 역행' 기술 -->
